@@ -128,3 +128,12 @@ Created a simple PySpark pipeline that:
 # Conclusion
 
 In this assignment, I learned how to create PySpark DataFrames, remove duplicate records, filter data, handle null values, perform aggregation, rename columns, and build a simple data processing pipeline using Apache Spark.
+
+## Insights
+
+- Spark DataFrames make data processing simple and efficient.
+- Removing duplicates and handling null values improves data quality.
+- Filtering helps extract only the required records.
+- Aggregation functions provide useful summaries of the data.
+- GroupBy allows analysis based on categories like region.
+- Spark performs these operations efficiently using distributed processing.
