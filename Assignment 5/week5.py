@@ -91,6 +91,16 @@ print("\nQuestion 10 - Rename Column")
 rename_df = df.withColumnRenamed("salary", "income")
 rename_df.show()
 
+print("Schema After Renaming")
+rename_df.printSchema()
+
+print("\nCasting Age Column to Integer")
+
+cast_df = rename_df.withColumn("age", col("age").cast("int"))
+
+cast_df.printSchema()
+cast_df.show()
+
 
 # Question 12
 
