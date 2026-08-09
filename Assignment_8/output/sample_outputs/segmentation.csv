@@ -1,0 +1,727 @@
+customer_id,name,r_score,f_score,m_score,segment
+153,Gabrielle Mitchell,2,5,5,At Risk
+520,Unknown Customer,2,5,5,At Risk
+707,Douglas Aguilar,1,5,5,At Risk
+297,Carla Cameron,1,5,5,At Risk
+392,Brian Kim,2,5,5,At Risk
+318,Loretta Blevins,2,5,5,At Risk
+792,Elizabeth Mcpherson,2,5,5,At Risk
+356,Jim Hendricks,1,5,5,At Risk
+776,Alan Weeks,1,5,5,At Risk
+66,Jonathan Fletcher,2,5,5,At Risk
+537,Eugene Jones,2,4,5,At Risk
+264,Donna Parker,1,5,5,At Risk
+353,Christina Mayer,2,5,5,At Risk
+128,Bill Reynolds,2,5,5,At Risk
+377,Jesse Mann,1,5,5,At Risk
+626,Angela Smith,1,5,5,At Risk
+232,Sharon Collins,2,5,5,At Risk
+474,Amanda Hernandez,1,5,5,At Risk
+462,Nancy May,1,4,5,At Risk
+256,Matthew Day,2,5,5,At Risk
+12,Gabrielle Cameron,1,5,5,At Risk
+648,John Mueller,2,5,5,At Risk
+435,James Cruz,2,5,5,At Risk
+248,Christina Bullock,1,5,5,At Risk
+621,Patricia Salazar,2,5,5,At Risk
+485,Robert Cortez,2,4,5,At Risk
+772,Sarah Dunn,2,5,4,At Risk
+247,Justin Gallegos,1,5,4,At Risk
+469,Victor Wheeler,1,4,4,At Risk
+518,Joel Stewart,2,4,4,At Risk
+126,Charles Martin,1,4,4,At Risk
+230,Melissa Brandt,2,4,4,At Risk
+613,Mary Vaughn,2,4,4,At Risk
+314,Steve Patel,2,4,4,At Risk
+101,Mitchell Hunterğ,2,4,4,At Risk
+398,Curtis Miller,2,4,4,At Risk
+686,Juan Serrano,2,4,4,At Risk
+16,William Davis,2,4,4,At Risk
+492,Diane Sweeney,2,4,4,At Risk
+7,Unknown Customer,2,4,4,At Risk
+123,Hannah Harrison,1,4,4,At Risk
+332,Penny Wilcoxñ,1,4,4,At Risk
+418,Kelsey Chapman,2,4,4,At Risk
+682,Elijah Knight,2,4,4,At Risk
+456,Nancy Mcdowell,2,4,4,At Risk
+770,Courtney Anderson,2,4,4,At Risk
+308,Diana Stanton,2,4,4,At Risk
+594,Wesley Torres,2,4,4,At Risk
+406,Derek Flores,2,4,4,At Risk
+55,Brandi Hernandez,2,4,4,At Risk
+258,Bradley Gonzalez,1,4,4,At Risk
+624,Christian Wallace,1,4,4,At Risk
+41,Breanna Shaw,2,4,4,At Risk
+349,Nancy Anderson,2,3,4,At Risk
+728,Melissa Galvan,2,4,4,At Risk
+316,Janet Vaughn,2,3,4,At Risk
+508,Gary Berry,2,3,4,At Risk
+642,William Benson,1,3,4,At Risk
+515,Unknown Customer,1,4,4,At Risk
+131,Lisa Costa,2,3,4,At Risk
+423,Zachary Arnold,1,3,4,At Risk
+782,Unknown Customer,2,3,4,At Risk
+98,Larry Lane,2,3,4,At Risk
+656,Megan Turner,2,5,4,At Risk
+661,Manuel Moon,1,4,4,At Risk
+81,Michelle Coleğ,2,5,4,At Risk
+627,Diamond Bryant,1,3,4,At Risk
+395,Donna Miller,2,4,3,At Risk
+226,Lisa Monroe,2,3,3,At Risk
+678,Melissa York,2,3,3,At Risk
+411,Robert Porter,2,3,3,At Risk
+669,Shannon Sullivan,1,4,3,At Risk
+352,Steven Moore,2,3,3,At Risk
+358,Angela Vargas,2,3,3,At Risk
+42,Melissa Jones,2,3,3,At Risk
+313,Ann Bolton,2,3,3,At Risk
+379,Adam Arnold,2,4,3,At Risk
+475,Amanda Myers,2,3,3,At Risk
+43,Ashley Riley,2,3,3,At Risk
+555,Alexandra Barnes,2,3,3,At Risk
+75,Charles Perry,1,3,3,At Risk
+72,Susan Fitzgerald,1,3,3,At Risk
+215,Ryan Morales,2,3,3,At Risk
+463,Chelsey Martin,1,3,3,At Risk
+278,Angela Wood,1,3,3,At Risk
+161,Daniel James,2,3,3,At Risk
+440,Amy Fritz,2,4,3,At Risk
+224,Steven Spencer,2,3,3,At Risk
+93,Karen Decker,2,3,3,At Risk
+305,Brittney Romero,2,3,3,At Risk
+68,Kyle Ortiz,2,3,3,At Risk
+255,John Sandoval,2,3,3,At Risk
+797,Tina Kramer,2,3,3,At Risk
+544,Kristen Ruiz,2,4,3,At Risk
+233,Debbie Henderson,1,3,3,At Risk
+426,Jason Ramirez,2,3,3,At Risk
+91,Elizabeth Miller,2,3,3,At Risk
+416,Deborah Rasmussen,2,3,3,At Risk
+60,Joseph Cobb,2,3,3,At Risk
+402,Joseph Adams,2,3,3,At Risk
+394,Tracy Kelly,4,5,5,Champions
+746,Raymond Christensen,5,5,5,Champions
+441,Shannon Bailey,4,5,5,Champions
+454,Mary Smith,4,5,5,Champions
+74,James Johnson,4,5,5,Champions
+32,Donna Gomez,5,5,5,Champions
+691,Elaine Charles,5,5,5,Champions
+588,Henry Miller,5,5,5,Champions
+361,Thomas Atkinson,5,5,5,Champions
+31,Barbara Sanchez,5,5,5,Champions
+432,Devin Reyes,5,5,5,Champions
+198,Morgan Pugh,5,5,5,Champions
+397,Daniel Smith,5,5,5,Champions
+245,Sarah Perry,5,5,5,Champions
+712,Rachel Ryan,5,5,5,Champions
+710,William Barnes,4,5,5,Champions
+681,Rachel Stewart,4,5,5,Champions
+213,Jenna Butler,4,5,5,Champions
+271,Debra Wright,5,5,5,Champions
+236,Christine Harper,5,5,5,Champions
+156,Amanda Knight,5,5,5,Champions
+50,Julia Moore,4,5,5,Champions
+466,John Newman,5,5,5,Champions
+519,Stacey Elliott,4,4,5,Champions
+567,Stephen Hull,4,5,5,Champions
+664,Cody Bonilla,4,5,5,Champions
+193,Diana Rich,5,5,5,Champions
+381,Daniel Davis,4,5,5,Champions
+744,Elizabeth Austin,4,5,5,Champions
+92,Jorge Murphy,5,4,5,Champions
+630,Cynthia Marsh,5,5,5,Champions
+761,Kim Griffin,5,5,5,Champions
+468,Kristen Leon,5,5,5,Champions
+86,Unknown Customer,5,5,5,Champions
+591,Roy Woods,5,5,5,Champions
+328,Ashley Rodriguez,4,5,5,Champions
+210,David Jimenez,5,5,5,Champions
+145,Molly Pollard,4,5,5,Champions
+513,Michael Stephens,5,5,5,Champions
+713,Nancy Wolfe,4,5,5,Champions
+590,Kristen Chan,4,5,5,Champions
+289,John Aguirre,4,5,5,Champions
+135,Robert Lopez,5,5,5,Champions
+688,Kayla Lewis,4,5,5,Champions
+2,Erica Mcclain,5,5,5,Champions
+365,Kathleen Ramsey,5,5,5,Champions
+311,Robert Gutierrez,4,5,5,Champions
+541,Philip Dunn,5,5,5,Champions
+665,Crystal Lewis,5,5,5,Champions
+3,Jeffery Wagner,5,5,5,Champions
+716,Jonathan Smith,5,5,5,Champions
+120,Rebekah Evans,4,5,5,Champions
+36,Andrea Williams,4,5,5,Champions
+577,Mark Hill,4,5,5,Champions
+330,Daniel Martin,4,5,5,Champions
+220,Bethany Maldonado,5,5,5,Champions
+600,Andrew Norris,5,5,5,Champions
+366,Mason Krueger,4,5,5,Champions
+148,Wayne Lawrence,5,5,5,Champions
+162,Tiffany Barrett,4,5,5,Champions
+562,Corey Melton,5,5,5,Champions
+526,Debra Thompson,5,5,5,Champions
+512,Dawn Robles,4,5,5,Champions
+424,Lauren Soto✓,4,5,5,Champions
+208,Erika Watkins,5,5,5,Champions
+189,Yolanda Boone,4,5,5,Champions
+570,Justin Hughes中,4,5,5,Champions
+405,Meagan James,5,4,5,Champions
+453,Ashlee Washington,4,4,5,Champions
+251,Candice Smith,4,4,5,Champions
+769,Diana Mcclure,4,4,5,Champions
+102,Daniel Yu,5,4,5,Champions
+499,David Howard,5,5,5,Champions
+483,John Ruiz,4,4,5,Champions
+191,Cynthia Kelley,4,5,5,Champions
+261,Pamela Paul,5,5,5,Champions
+758,Michael Castro,5,5,5,Champions
+701,Robert Rivera,5,4,5,Champions
+465,Karen Lawrence,5,4,5,Champions
+296,William Levy,4,4,5,Champions
+8,Barbara Bush,4,5,5,Champions
+579,Donald Johnson,5,5,5,Champions
+292,Daniel Allen,5,5,5,Champions
+765,Kimberly Mcmillan,5,5,4,Champions
+57,Michael Castro,5,5,4,Champions
+597,Lisa Smith,4,4,4,Champions
+528,Jacqueline Berry,5,4,4,Champions
+705,Dana Johns,5,5,4,Champions
+252,Aaron Gomez,5,4,4,Champions
+27,Emily Brooks,5,5,4,Champions
+132,Mia Rivera,5,4,4,Champions
+157,Monica Harvey,4,4,4,Champions
+4,Robert Cole,5,4,4,Champions
+548,Jeremy Brown,4,4,4,Champions
+525,Kevin Taylor,4,4,4,Champions
+493,Robert Woodward,4,4,4,Champions
+1,Danielle Johnson,4,5,4,Champions
+253,Christopher Villegas,4,4,4,Champions
+658,Christopher Walker,5,4,4,Champions
+217,William Bullock,5,4,4,Champions
+458,Cody Lewis,4,4,4,Champions
+374,Steven Oconnor,4,4,4,Champions
+401,Rachel Stein,4,4,4,Champions
+779,Maria Walker,4,4,4,Champions
+158,Jesse Little,5,5,4,Champions
+461,Lawrence Ibarra,5,5,4,Champions
+644,Justin Boone,5,4,4,Champions
+496,Joel Green,5,5,4,Champions
+23,Daniel Cox,4,5,4,Champions
+551,Gerald Joyce,4,4,4,Champions
+48,Jade Carr,5,4,4,Champions
+610,Melissa Zamora,5,4,4,Champions
+336,Erik Parks,4,4,4,Champions
+531,Lorraine Santiago,4,4,4,Champions
+455,Susan Harris,5,5,4,Champions
+734,Gregory Hunter,5,5,4,Champions
+793,Laura Richards,4,4,4,Champions
+569,Sean Horne,5,4,4,Champions
+117,Shelley Woods,4,5,4,Champions
+651,Janet Holland,4,4,4,Champions
+625,Sergio Wilson,4,5,4,Champions
+532,John Jones,5,4,4,Champions
+436,Robert Larsen,4,4,4,Champions
+484,Austin Pratt,4,4,4,Champions
+425,Christina Gonzalez,5,5,4,Champions
+176,Derek Chavez,5,4,4,Champions
+415,Elizabeth Jackson,2,2,5,Lost
+576,Justin Cohen,1,2,5,Lost
+549,Michelle Wells,1,2,4,Lost
+506,Lisa Johnson,1,2,4,Lost
+362,Anna Faulkner,2,2,4,Lost
+601,Johnny Miles,1,2,4,Lost
+783,Edwin Booker,2,2,4,Lost
+46,Anna Garcia,2,2,4,Lost
+791,David Olson,2,2,4,Lost
+502,Randy Williams,2,2,4,Lost
+714,Kayla Bell,1,2,4,Lost
+143,Mary Carpenter,1,2,4,Lost
+367,David Key,1,2,4,Lost
+794,Kristen Alvarez,1,2,4,Lost
+70,Amy Smith,2,2,3,Lost
+595,Jessica Carlson,2,2,3,Lost
+183,Jesse Schroeder,1,2,3,Lost
+732,Jessica Hansen,1,2,3,Lost
+708,Gary Jennings,2,2,3,Lost
+530,Julie Young,1,2,3,Lost
+666,Amanda Park,2,2,3,Lost
+29,Jean Brown,1,2,3,Lost
+452,Mallory Simpson,1,2,3,Lost
+386,Ariel Hodge,1,2,3,Lost
+341,James Herrera,2,2,3,Lost
+444,Amanda Carlson,2,2,3,Lost
+275,Valerie Contreras,1,2,3,Lost
+429,Brenda Bailey,1,2,3,Lost
+179,Cory Jennings,1,2,3,Lost
+495,Dana Foster,1,2,3,Lost
+655,Bill Mcfarland,2,2,3,Lost
+768,Kelli Warren,1,1,3,Lost
+497,Mark Chavez,2,1,3,Lost
+632,James Martinez,1,1,3,Lost
+302,Sheila Fischer,2,2,3,Lost
+721,Becky Schroeder,2,1,3,Lost
+64,Gregory Estes,1,2,3,Lost
+334,Sean Adams,1,2,2,Lost
+293,Brent Dougherty,2,2,2,Lost
+137,Anthony Mccoy,2,2,2,Lost
+787,Charles Harrison,2,2,2,Lost
+45,Emily Evans,1,2,2,Lost
+736,Timothy Sanchez,1,2,2,Lost
+323,Sarah Russell,2,2,2,Lost
+173,Daniel Hall,1,2,2,Lost
+87,Kenneth Price,2,1,2,Lost
+706,Catherine Ruiz,2,2,2,Lost
+786,Heidi Johnson,2,1,2,Lost
+22,Amber Osborne,1,2,2,Lost
+408,John Bennett,1,2,2,Lost
+741,Patricia Adams,1,2,2,Lost
+133,Lisa Pierce,2,1,2,Lost
+540,Sara Fernandez,1,2,2,Lost
+587,Victoria Cooper,1,2,2,Lost
+90,Samantha Hooper,1,2,2,Lost
+269,Patrick Bradley,2,2,2,Lost
+94,Brett Crane,1,2,2,Lost
+578,Rachel Trujillo,2,1,2,Lost
+464,Robert Parks,2,1,2,Lost
+187,Kimberly Palmer,1,2,2,Lost
+306,Thomas Smith,2,2,2,Lost
+784,David Gonzales,1,2,2,Lost
+298,Melanie Jordan,2,2,2,Lost
+73,Christine Davis,1,2,2,Lost
+643,Brandi Bender,1,1,2,Lost
+572,Evelyn Wells,1,2,2,Lost
+428,Michelle Rose,1,1,2,Lost
+118,Crystal Brown,2,2,2,Lost
+730,Theresa Miller,2,1,2,Lost
+21,Unknown Customer,1,2,2,Lost
+216,Matthew Cook,2,2,2,Lost
+127,Holly Bender,2,2,2,Lost
+762,Crystal Thomas,2,2,2,Lost
+322,Robert Love,1,1,2,Lost
+757,Lisa Woods,1,2,2,Lost
+103,Gregory Boyd,2,2,2,Lost
+146,Robert Flores,2,2,2,Lost
+286,Rachel Morgan,2,2,2,Lost
+229,Cameron Davis,2,2,2,Lost
+527,Nicholas Gross,1,1,2,Lost
+348,Shane Starkñ,2,2,2,Lost
+616,Kimberly Carr,1,1,2,Lost
+107,Lauren Peterson,1,1,2,Lost
+771,Michelle Nguyen,1,2,2,Lost
+250,David Allen,2,2,2,Lost
+753,Gina Olsen,1,2,2,Lost
+652,Kelly Thompson,2,2,1,Lost
+342,Erin Love,1,1,1,Lost
+177,Eric Perry,1,1,1,Lost
+557,Justin Nichols,1,1,1,Lost
+790,Unknown Customer,1,1,1,Lost
+720,Timothy Wood,2,2,1,Lost
+300,Paul Cole,1,2,1,Lost
+80,Lisa Mcclain,1,1,1,Lost
+111,Michael Chavez,1,2,1,Lost
+277,David Harris,1,1,1,Lost
+61,Jeffrey Velasquez,2,2,1,Lost
+507,David Stein,1,1,1,Lost
+5,Roberto Ramirez,1,1,1,Lost
+437,Kathleen Carter,2,1,1,Lost
+235,Chris Richard,1,1,1,Lost
+180,Tammy Rush™,2,2,1,Lost
+438,Stephen Newton,2,1,1,Lost
+639,Tara Chavez,2,2,1,Lost
+238,Erica Young,1,1,1,Lost
+266,Danielle Moody,1,1,1,Lost
+114,Jeremy White,2,1,1,Lost
+212,Andrew Morse,2,1,1,Lost
+109,Travis Mcguire,2,1,1,Lost
+696,Amy Thompson,1,1,1,Lost
+273,Justin Hendricks,2,1,1,Lost
+59,Nicole Johnson,1,1,1,Lost
+514,Paul White,1,1,1,Lost
+581,Gina Little,1,1,1,Lost
+268,Kimberly Johnsonğ,1,1,1,Lost
+676,Amy Miller,2,1,1,Lost
+457,Brett Garrett,1,1,1,Lost
+618,Katrina Ray,2,1,1,Lost
+165,John Campos,1,1,1,Lost
+294,Lisa Peck,1,1,1,Lost
+83,Joseph Flores,2,1,1,Lost
+748,Gregory Bray,1,1,1,Lost
+414,Tanya Miles,2,1,1,Lost
+355,Scott Fernandez,1,1,1,Lost
+281,Erin Cooper,1,1,1,Lost
+97,Miguel Obrien,2,1,1,Lost
+291,Jessica Valencia,1,1,1,Lost
+420,Michael Cooper,1,1,1,Lost
+219,Gregory Mejia,1,1,1,Lost
+789,James Moss,1,1,1,Lost
+545,Unknown Customer,1,1,1,Lost
+363,Mark Miller,1,1,1,Lost
+136,Brett Adams,2,1,1,Lost
+722,Julie Griffin,2,1,1,Lost
+190,Charles Miller,2,1,1,Lost
+11,Jessica Martin,1,1,1,Lost
+231,Donald Bailey,2,1,1,Lost
+609,Morgan Phelps,1,1,1,Lost
+800,Unknown Customer,1,1,1,Lost
+53,Tina Martin,2,1,1,Lost
+489,Micheal Bonilla,1,1,1,Lost
+538,Patricia Bush,1,1,1,Lost
+471,Gerald Ruiz,2,1,1,Lost
+504,Laura Martinez,2,1,1,Lost
+108,Christopher Cortez,1,1,1,Lost
+472,Jose Williams,1,1,1,Lost
+121,Brian Choi,1,1,1,Lost
+295,Wendy Owens,1,1,1,Lost
+623,Tara Williams,1,1,1,Lost
+780,Kathy Kent,1,1,1,Lost
+764,Denise Page,1,1,1,Lost
+467,Jamie Lawson,1,1,1,Lost
+523,Marcus Johnson,2,1,1,Lost
+371,Robert Hart,1,1,1,Lost
+434,Leonard Hayes™,1,1,1,Lost
+470,David Valenciañ,1,1,1,Lost
+480,Alexandria Baker,1,1,1,Lost
+717,Adrian Pena,2,1,1,Lost
+100,Melissa Burke,1,1,1,Lost
+450,Stephanie Murphy,1,1,1,Lost
+566,Ashley Thompson,1,1,1,Lost
+325,Audrey Nichols,1,1,1,Lost
+738,Jeffrey Haynes,1,1,1,Lost
+321,John Williams,1,1,1,Lost
+338,Vanessa Brooks,1,1,1,Lost
+756,Anna Bradley,1,1,1,Lost
+290,Scott Washington,1,1,1,Lost
+563,Joseph Butler,2,1,1,Lost
+575,William Bates,1,1,1,Lost
+754,Melissa Gonzalez,1,1,1,Lost
+640,Kaitlyn Evansñ,1,1,1,Lost
+150,Eric Harrison,1,1,1,Lost
+262,Tyler Jimenez,1,1,1,Lost
+160,Hannah Bryant,3,5,5,Loyal Customers
+168,Kristin Walter,3,5,5,Loyal Customers
+443,Gabriel Taylor,3,5,5,Loyal Customers
+195,Ronald Ortega,3,5,5,Loyal Customers
+383,Annette Branch,3,4,5,Loyal Customers
+249,Shelby Lynch,3,5,5,Loyal Customers
+673,Derek Myers,3,5,5,Loyal Customers
+759,Unknown Customer,3,5,5,Loyal Customers
+200,Daniel Bruce,3,5,5,Loyal Customers
+733,Catherine Lee,3,5,5,Loyal Customers
+376,Charles Meyers,3,5,5,Loyal Customers
+582,Howard Davis✓,3,4,5,Loyal Customers
+498,Kayla Rodriguez,3,5,5,Loyal Customers
+119,Angela Butler,3,5,5,Loyal Customers
+740,Kaitlyn Peterson,3,5,5,Loyal Customers
+345,Julie Lane,3,4,5,Loyal Customers
+674,Erica Sloan,3,5,5,Loyal Customers
+284,Meghan King,3,5,5,Loyal Customers
+488,Alan Gonzalez,3,4,5,Loyal Customers
+360,Heather Russell,3,5,5,Loyal Customers
+178,Antonio Wood,3,5,5,Loyal Customers
+199,Michael Lane,3,5,5,Loyal Customers
+69,Elizabeth Gray,3,5,5,Loyal Customers
+241,Patrick Rose,3,4,5,Loyal Customers
+77,Nicole Osborne,3,5,5,Loyal Customers
+631,Travis Underwood,3,4,5,Loyal Customers
+412,Kristina Jones,3,4,5,Loyal Customers
+413,William Knapp,3,4,5,Loyal Customers
+96,Thomas Wilson,3,4,5,Loyal Customers
+260,Michael Norman,3,5,5,Loyal Customers
+494,Unknown Customer,3,4,5,Loyal Customers
+303,Benjamin Reeves,3,4,5,Loyal Customers
+88,Amy Morrison,3,4,4,Loyal Customers
+622,Tyler Martin,3,4,4,Loyal Customers
+749,Alexander Clark,3,5,4,Loyal Customers
+85,Steven Brown,3,4,4,Loyal Customers
+259,Veronica Daniels,3,4,4,Loyal Customers
+645,Dustin Santiago,3,4,4,Loyal Customers
+598,William Martinez,3,4,4,Loyal Customers
+501,Jason Gates,3,4,4,Loyal Customers
+539,Brian Rivera,3,4,4,Loyal Customers
+439,Ashley Adams,3,5,4,Loyal Customers
+373,Ashley Sanchez,3,4,4,Loyal Customers
+679,Kelly Jones,3,4,4,Loyal Customers
+192,Kenneth Wagner,3,4,4,Loyal Customers
+521,Jesse Robinson,3,5,4,Loyal Customers
+603,William Williamson,3,4,4,Loyal Customers
+410,Jeanette Gonzales,3,4,4,Loyal Customers
+500,Melissa Davis,3,4,4,Loyal Customers
+690,Mercedes Anderson,3,4,4,Loyal Customers
+399,Ricky Johnson,3,5,4,Loyal Customers
+186,Joseph Martinez,3,3,4,Loyal Customers
+421,Connor Bowen,3,5,4,Loyal Customers
+287,Brandon May,3,3,4,Loyal Customers
+174,Cynthia Marshall,4,3,4,Loyal Customers
+689,Desiree Hernandez,3,4,4,Loyal Customers
+727,Sonya Wilkins,3,3,4,Loyal Customers
+709,Jerry Cruz,5,3,4,Loyal Customers
+20,Shawn Mckay,4,3,4,Loyal Customers
+51,Cynthia Baker,3,4,4,Loyal Customers
+547,Colin Barnett,3,5,4,Loyal Customers
+636,Savannah Roberson,4,3,4,Loyal Customers
+684,Dennis Quinn😀,3,3,4,Loyal Customers
+647,Michael Chavez,5,3,4,Loyal Customers
+354,Brittney Griffin,3,3,4,Loyal Customers
+667,Julie Hernandez,3,4,4,Loyal Customers
+104,Steven Petersen,4,3,4,Loyal Customers
+729,Zachary Hall,3,3,4,Loyal Customers
+347,Justin White,3,4,4,Loyal Customers
+65,Jessica Edwards,3,3,4,Loyal Customers
+393,Stephanie Sanders,3,5,4,Loyal Customers
+25,David Keller,5,3,4,Loyal Customers
+116,Audrey Harrison,4,3,4,Loyal Customers
+221,Unknown Customer,5,3,4,Loyal Customers
+163,Julie Williams,4,3,4,Loyal Customers
+571,Erica Adams,3,4,3,Loyal Customers
+19,Nicole Potter,3,3,3,Loyal Customers
+697,Rachel Miller,4,3,3,Loyal Customers
+246,Jeffrey Flores,5,4,3,Loyal Customers
+731,Richard Gonzalez,3,4,3,Loyal Customers
+310,John Armstrong,4,4,3,Loyal Customers
+242,John Davidson,5,3,3,Loyal Customers
+130,April Ramos,4,3,3,Loyal Customers
+312,Samantha Salas,5,4,3,Loyal Customers
+222,Michael Jones,4,4,3,Loyal Customers
+112,David Herrera,5,3,3,Loyal Customers
+777,Russell Carter,4,4,3,Loyal Customers
+650,Julia Harris,4,3,3,Loyal Customers
+47,Michael Jones,3,3,3,Loyal Customers
+283,Fernando Donovan,3,4,3,Loyal Customers
+657,Jeffrey White,4,3,3,Loyal Customers
+542,Christopher Colon,3,3,3,Loyal Customers
+419,Dan Perry,3,3,3,Loyal Customers
+702,Jason Martin,5,4,3,Loyal Customers
+615,Dale Pruitt,3,4,3,Loyal Customers
+129,Brenda Smith,4,3,3,Loyal Customers
+781,Robert Castaneda,4,4,3,Loyal Customers
+35,Joshua Wright,4,3,3,Loyal Customers
+449,Nicole Davis,3,3,3,Loyal Customers
+503,Stephanie Bond,5,3,3,Loyal Customers
+554,Mark Hill,3,3,3,Loyal Customers
+788,Theresa Espinoza,3,3,3,Loyal Customers
+84,Heather Mccarthy,4,3,3,Loyal Customers
+546,Steven Perez,3,4,3,Loyal Customers
+400,Michelle Smith,3,3,3,Loyal Customers
+209,Brian Harris,5,4,3,Loyal Customers
+560,Hannah Williams,3,3,3,Loyal Customers
+382,Lisa Adams,4,3,3,Loyal Customers
+331,Krystal Bradley,4,4,3,Loyal Customers
+152,Jennifer Malone,3,3,3,Loyal Customers
+106,Nicholas Johnson,3,4,3,Loyal Customers
+378,Christine Estrada,5,3,3,Loyal Customers
+637,Lisa Garcia,5,4,3,Loyal Customers
+170,Donald Levy,4,3,3,Loyal Customers
+766,Melissa Martinez,5,3,3,Loyal Customers
+368,Randy Allen,5,3,3,Loyal Customers
+516,Craig Sandoval,4,3,3,Loyal Customers
+15,Jose Richards,5,4,3,Loyal Customers
+704,Gabriel Nielsen,3,3,3,Loyal Customers
+214,George Meza,5,3,3,Loyal Customers
+653,Willie Bennett,5,4,3,Loyal Customers
+197,David Brown,4,3,3,Loyal Customers
+28,Caleb Smith,3,3,3,Loyal Customers
+552,Vanessa Graham,5,3,3,Loyal Customers
+427,Amanda Diaz,5,4,3,Loyal Customers
+481,Brian Villarreal,5,4,3,Loyal Customers
+491,Michael Franco,5,3,3,Loyal Customers
+487,Steven Campbell,5,3,3,Loyal Customers
+99,Shelly Gonzalez,5,4,3,Loyal Customers
+604,Chelsea Strickland,5,4,3,Loyal Customers
+76,Reginald Hernandez,5,3,3,Loyal Customers
+693,Michael Robinson,5,3,3,Loyal Customers
+580,Paul Johnson,5,5,3,Loyal Customers
+699,Adam Macias,4,3,3,Loyal Customers
+641,James Weber,3,3,3,Loyal Customers
+144,Amanda Reed,3,4,3,Loyal Customers
+556,Katherine Ayers,3,3,3,Loyal Customers
+612,Lisa White,5,3,3,Loyal Customers
+583,Stacey Lam,4,3,3,Loyal Customers
+227,John Kim,4,4,3,Loyal Customers
+431,John Wilson,5,3,3,Loyal Customers
+237,Colleen Orr,4,4,3,Loyal Customers
+659,Stephanie Montgomery,4,4,3,Loyal Customers
+599,Kelsey Dean,5,3,3,Loyal Customers
+288,Christine Johnson,4,3,3,Loyal Customers
+202,Heather Johnson,4,3,3,Loyal Customers
+182,David Cunningham,5,2,2,New Customers
+778,Nicole Kim,4,2,2,New Customers
+608,Jonathan Hall,5,2,2,New Customers
+743,Christine Moore,4,2,2,New Customers
+105,Joshua Hayes,5,2,2,New Customers
+175,Brandon Johnson,5,2,2,New Customers
+14,Nicole Day™,5,2,2,New Customers
+24,Stacey Miller,4,2,2,New Customers
+700,Juan Hernandez,4,1,2,New Customers
+558,Todd Lynch,4,2,2,New Customers
+445,Unknown Customer,4,2,2,New Customers
+124,Michele Jones,4,2,2,New Customers
+239,Amanda Collins,4,2,2,New Customers
+317,Keith Berry,5,2,2,New Customers
+125,Ronald Stephens,5,2,2,New Customers
+115,Angela Terry,4,2,2,New Customers
+524,Michelle Yu,5,2,2,New Customers
+337,Christina Robinson,4,2,2,New Customers
+204,Cynthia Johnson,4,2,2,New Customers
+359,Tyler Compton,5,2,2,New Customers
+151,Melissa Phelps,5,2,2,New Customers
+509,Felicia Thompson,4,2,2,New Customers
+159,Erica Moore,4,2,2,New Customers
+559,Charlotte Steele,4,2,2,New Customers
+785,Jeff Fisher,4,1,2,New Customers
+775,Alex Mills,4,2,2,New Customers
+473,Jennifer Wang,5,2,2,New Customers
+628,Martin Saunders,5,1,2,New Customers
+270,Nathan Hines,5,2,2,New Customers
+335,Jose Ward,5,2,1,New Customers
+196,Christopher Miller,5,2,1,New Customers
+340,Michael Stark,4,1,1,New Customers
+82,Kimberly Washington,4,2,1,New Customers
+742,Jill Salas,4,2,1,New Customers
+122,Christopher Allen,5,2,1,New Customers
+309,George Fuller,4,1,1,New Customers
+511,Nicole Mendoza,4,1,1,New Customers
+370,Tina Harrison,4,1,1,New Customers
+155,Brandon Flynn,4,1,1,New Customers
+357,Kevin Thomas,5,1,1,New Customers
+44,Alexandra Donovan,4,1,1,New Customers
+319,Jennifer Reed,5,1,1,New Customers
+79,Elizabeth Travis,4,1,1,New Customers
+223,Marie Jones,4,1,1,New Customers
+687,Charles Jones,4,1,1,New Customers
+327,Tyler Zuniga,5,1,1,New Customers
+724,Adam Davis,5,1,1,New Customers
+244,Dylan Kim,5,1,1,New Customers
+459,Sean Smith,5,1,1,New Customers
+346,Unknown Customer,4,1,1,New Customers
+110,Elizabeth Wood,4,1,1,New Customers
+715,Katie Kent,4,1,1,New Customers
+184,Vanessa Fernandez,4,1,1,New Customers
+510,Edgar Mendez,5,1,1,New Customers
+767,Garrett Garcia,5,1,1,New Customers
+9,Melissa Delacruz,4,1,1,New Customers
+649,Paul Frye,5,1,1,New Customers
+194,Robert Wilcox,5,1,1,New Customers
+403,Kevin Patton,5,1,1,New Customers
+62,Andrew Lee,4,1,1,New Customers
+154,Cynthia Brennan,5,1,1,New Customers
+529,Lisa Carr,4,2,5,Promising
+350,Allison Luna,3,2,5,Promising
+218,Curtis Scott,5,2,4,Promising
+634,Mary Chapman,4,2,4,Promising
+568,William Reid,5,2,4,Promising
+798,Andrew Gray,3,2,4,Promising
+149,Alicia Bryant,4,2,4,Promising
+719,Joshua Becker,3,2,4,Promising
+533,Samuel Barnes,4,2,3,Promising
+138,Alexander Russell,4,2,3,Promising
+635,Stephanie Taylor,3,2,3,Promising
+482,Emily Wilson,4,2,3,Promising
+39,Kristen Mitchell,3,2,3,Promising
+315,Todd Bernard,4,1,3,Promising
+384,Clayton Gray,3,2,3,Promising
+476,Stephanie Allen,5,2,3,Promising
+755,Robert Taylor,4,2,3,Promising
+344,Steven Roman,3,2,3,Promising
+606,Jimmy Smith,3,2,3,Promising
+535,Debra Mcdaniel,5,1,3,Promising
+417,Jonathan Dixon,3,2,3,Promising
+211,Jerry Hansen,3,2,3,Promising
+586,David Becker,5,2,3,Promising
+796,Michael Moore,3,2,3,Promising
+54,Charles Ware,4,2,3,Promising
+680,Mark Anderson,4,2,3,Promising
+619,Matthew Mills,3,3,2,Promising
+329,Troy Mays,3,3,2,Promising
+6,Michael Cooper,4,4,2,Promising
+279,Unknown Customer,4,3,2,Promising
+276,Kevin Moore,3,2,2,Promising
+490,Laura Hernandez,2,4,2,Promising
+372,Brandy Cortez,3,3,2,Promising
+67,Elizabeth Rivera,4,4,2,Promising
+390,Francisco Allen,5,3,2,Promising
+633,James Morgan,1,4,2,Promising
+747,Sheila Johnson,3,3,2,Promising
+166,Debbie Parker,5,3,2,Promising
+254,Cynthia Zavala,3,3,2,Promising
+113,Joshua Lawrence,4,3,2,Promising
+147,Laura Pearson,5,3,2,Promising
+139,Marilyn Jimenez,1,3,2,Promising
+662,Unknown Customer,3,2,2,Promising
+351,Steven Ball,3,3,2,Promising
+13,Leslie Adams,5,4,2,Promising
+478,Jacqueline Martin,3,3,2,Promising
+692,Erik Knight,3,2,2,Promising
+593,Jessica Perez,3,4,2,Promising
+324,Unknown Customer,3,2,2,Promising
+369,Kyle Ward,3,2,2,Promising
+574,Stephen Robinson,1,3,2,Promising
+228,Paul Schroeder,2,5,2,Promising
+134,Tara Powell,1,3,2,Promising
+63,Darlene Ross,3,3,2,Promising
+620,Timothy Alvarado,5,5,2,Promising
+56,Laura Valencia,3,3,2,Promising
+602,Elaine Nelson,2,3,2,Promising
+225,Denise Morris,4,4,2,Promising
+274,Shannon Roach,1,3,2,Promising
+206,Karen Williams,4,3,2,Promising
+364,Joseph Nunez,3,1,2,Promising
+739,Amanda Haynes,5,3,2,Promising
+49,Sarah Garciağ,3,3,2,Promising
+167,Christopher Phillips,3,4,2,Promising
+550,Raven Klein,5,3,2,Promising
+33,Emily Joyce,3,3,2,Promising
+677,Eugene Walker,1,3,2,Promising
+543,Jamie Little,3,2,2,Promising
+589,Shannon Clark,5,3,2,Promising
+409,James Osborn,4,4,2,Promising
+10,Mitchell Clark,3,2,2,Promising
+380,Tiffany Smith,4,4,2,Promising
+505,Nathan Mccoy,5,3,2,Promising
+307,Laura Swanson,3,2,2,Promising
+685,Kim Tucker,1,4,2,Promising
+561,Lisa Turner,5,5,2,Promising
+171,Angela Davis,5,3,2,Promising
+592,Stephanie Mcclain,3,3,2,Promising
+272,Unknown Customer,2,3,2,Promising
+585,Steven Wilson,3,2,2,Promising
+605,Ethan Kelley,1,3,2,Promising
+263,Ryan Carney,3,1,2,Promising
+89,Todd Price,3,2,2,Promising
+301,Unknown Customer,3,1,2,Promising
+391,Martin Campos,2,3,2,Promising
+763,Richard Meadows,1,3,2,Promising
+536,Kenneth Flores,3,3,2,Promising
+172,Miguel Curry,4,3,2,Promising
+460,Unknown Customer,3,2,2,Promising
+737,Michelle Olson,3,4,2,Promising
+442,Kimberly Youngω,2,3,2,Promising
+614,Garrett Anderson,3,3,2,Promising
+40,Jeff Brown,4,3,2,Promising
+388,Juan Daniels,3,2,1,Promising
+617,Paige Alexander,5,3,1,Promising
+422,Andrew Cooper,4,3,1,Promising
+339,Elizabeth Robinson,4,3,1,Promising
+745,Leslie Villanueva,2,3,1,Promising
+18,Allison Maddox,3,2,1,Promising
+611,Unknown Customer,5,3,1,Promising
+17,Erin Carlson,3,1,1,Promising
+299,Brandon Williams,4,3,1,Promising
+573,Unknown Customer,4,3,1,Promising
+326,Nicole Thompson,3,1,1,Promising
+672,Patrick Short,2,3,1,Promising
+638,Tiffany Moon,3,1,1,Promising
+52,Cynthia Calderon,4,4,1,Promising
+257,Crystal Cain,3,1,1,Promising
+479,Unknown Customer,3,1,1,Promising
+486,Emily Williams,3,1,1,Promising
+26,Rodney Lewis,3,1,1,Promising
+670,Adam Cortez,3,1,1,Promising
+343,Brian Anderson,1,3,1,Promising
+58,Eric Spears,3,1,1,Promising
+387,Heather Knight,3,1,1,Promising
+188,Bradley Logan,3,1,1,Promising
+201,Lindsay Bruce,3,1,1,Promising
+407,Raymond Flores,3,1,1,Promising
+695,Bill Wong😀,3,1,1,Promising
+71,Diana Marshall,3,1,1,Promising

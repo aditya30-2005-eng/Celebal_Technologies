@@ -1,0 +1,26 @@
+product_id,product_name,category,brand,units_sold,revenue,revenue_rank
+495,Unnamed Product,Grocery,Apex,144,117202.02,1
+401,External Ssd 1Tb,Sports,Speedpro,136,97684.54,2
+195,Tire Cleaner,Grocery,Urbanfit,108,95863.3,3
+345,Wiper Blades,Beauty,Purelife,121,95395.23,4
+397,Toaster,Office,Vertex,125,94937.64,5
+256,Toaster,Sports,Homecraft,111,90294.69,6
+277,Standing Desk,Automotive,Novatech,100,89167.22,7
+435,Desk Lamp,Electronics,Speedpro,106,88045.93,8
+259,Tennis Racket,Office,Vertex,104,85902.91,9
+231,Winter Jacket,Sports,Purelife,112,85502.7,10
+211,Coffee Maker,Clothing,Speedpro,89,84721.99,11
+377,Cast Iron Pan,Electronics,Homecraft,99,83489.64,12
+318,Organic Rice,Books,Speedpro,90,82768.32,13
+363,Portable Charger,Toys,Vertex,98,82379.86,14
+246,Noise Cancelling Headphones,Clothing,Optima,95,82005.61,15
+395,Portable Charger,Clothing,Readwell,102,81933.98,16
+76,Denim Jeans,Books,Vertex,100,81770.77,17
+451,Treadmill,Grocery,Readwell,101,81659.45,18
+270,Air Fryer,Toys,Urbanfit,102,81455.04,19
+278,Olive Oil,Grocery,Apex,106,81200.18,20
+393,Desk Organizer,Books,Urbanfit,92,81078.91,21
+465,Olive Oil,Office,Readwell,80,80944.94,22
+92,External Ssd 1Tb,Books,Speedpro,111,80675.87,23
+355,Perfume,Beauty,Novatech,95,80484.42,24
+365,Cast Iron Pan,Office,Apex,86,80308.98,25
