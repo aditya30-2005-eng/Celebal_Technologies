@@ -1,7 +1,7 @@
 E-Commerce Order Analytics System - Validation Report
 ============================================================
 Entity         Rows     Nulls    Duplicates
-customers      59       0        0         
-products       40       0        0         
-orders         107      0        0         
-order_items    266      0        0         
+customers      782      0        0         
+products       500      0        0         
+orders         3084     0        0         
+order_items    10412    0        0         
