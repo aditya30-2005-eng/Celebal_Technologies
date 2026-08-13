@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+
+# Environment and local settings
+.env
+.envrc
+.DS_Store
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# Logs and temp files
+*.log
+/tmp/
+checkpoint*/
+**/checkpoint*/
+
+# Databricks / cloud local copies
+dbfs/
+**/.databricks
+
+# Secrets and credentials
+secrets/
+credentials/
+*.pem
+*.key
+
+# Generated / local data
+*.parquet
+*.delta/
