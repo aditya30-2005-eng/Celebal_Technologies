@@ -1,0 +1,501 @@
+product_id,product_name,category,subcategory,brand,price,cost_price,stock_quantity
+1,Bluetooth Speaker,Beauty,Skincare,Purelife,738.08,376.66,157
+2,4K Monitor,Electronics,Computing,Optima,1262.99,830.16,198
+3,Building Blocks,Sports,Team,Purelife,1391.61,876.75,208
+4,Self Help Guide,Grocery,Organic,Urbanfit,1300.32,717.65,180
+5,Treadmill,Uncategorized,Audio,Vertex,682.62,305.37,264
+6,Unnamed Product,Toys,Games,Apex,1271.2,577.85,448
+7,Blender,Electronics,Computing,Readwell,35.99,24.74,87
+8,Cotton T-Shirt,Automotive,Parts,Readwell,26.09,14.3,66
+9,Unnamed Product,Sports,Outdoor,Purelife,902.11,536.01,43
+10,Running Shoes,Toys,Vehicles,Purelife,1307.8,707.89,181
+11,Laptop Stand,Automotive,Parts,Readwell,13.0,7.12,173
+12,Unnamed Product,Automotive,Parts,Speedpro,139.01,92.17,313
+13,Fiction Novel,Toys,Vehicles,Greenleaf,777.86,345.83,117
+14,Car Polish,Grocery,Organic,Greenleaf,394.02,257.59,443
+15,Tennis Racket,Sports,Outdoor,Novatech,144.89,82.77,213
+16,Toaster,Clothing,Footwear,Purelife,1153.53,489.46,425
+17,Air Freshener,Sports,Fitness,Vertex,683.8,450.61,410
+18,Treadmill,Clothing,General,Speedpro,1198.22,581.71,385
+19,Winter Jacket,Grocery,Organic,Purelife,185.29,101.33,453
+20,Cookbook,Toys,Building,Greenleaf,846.76,503.22,365
+21,Tire Cleaner,Automotive,Care,Readwell,793.27,441.79,151
+22,Portable Charger,Automotive,Care,Vertex,1376.36,758.42,58
+23,Almonds,Home & Kitchen,Decor,Greenleaf,273.42,131.11,494
+24,Dress Shirt™,Clothing,Footwear,Speedpro,320.54,221.09,308
+25,Science Journal,Office,Supplies,Homecraft,929.65,376.29,496
+26,Noise Cancelling Headphones,Home & Kitchen,Appliances,Greenleaf,317.79,138.22,462
+27,Olive Oil,Grocery,Pantry,Novatech,1445.97,946.08,221
+28,Tire Cleaner,Office,Supplies,Greenleaf,1106.92,462.93,9
+29,Dumbbell Set,Sports,Equipment,Urbanfit,832.11,380.82,176
+30,Wiper Blades,Beauty,Makeup,Purelife,333.45,213.38,432
+31,Chef Knife,Clothing,Accessories,Readwell,427.26,242.28,9
+32,Unnamed Product,Home & Kitchen,Appliances,Homecraft,538.77,376.11,401
+33,Laptop Stand,Automotive,Maintenance,Greenleaf,1156.28,796.44,386
+34,Cable Organizer,Office,Stationery,Readwell,1173.56,737.69,255
+35,Standing Desk,Beauty,Fragrance,Greenleaf,235.66,129.97,43
+36,Doll House,Books,Non-Fiction,Greenleaf,544.15,301.92,349
+37,Noise Cancelling Headphones,Electronics,Audio,Urbanfit,666.65,278.22,323
+38,Ballpoint Pens,Toys,Figures,Readwell,1459.12,850.84,75
+39,Green Tea,Automotive,Parts,Novatech,967.59,500.24,368
+40,Denim Jeans,Automotive,Maintenance,Optima,783.09,369.93,396
+41,Puzzle Set,Clothing,Men,Greenleaf,1480.49,919.47,232
+42,Rice Cooker,Office,Furniture,Optima,1209.04,521.78,264
+43,Shampoo,Home & Kitchen,Decor,Optima,684.18,388.4,398
+44,Fiction Novel,Toys,Figures,Greenleaf,878.52,385.51,360
+45,Stapler,Books,Children,Speedpro,181.49,92.72,148
+46,Winter Jacket,Sports,Team,Readwell,181.01,116.88,250
+47,Tennis Racket,Electronics,Displays,Vertex,106.0,46.81,325
+48,Green Tea,Home & Kitchen,Storage,Novatech,1002.49,668.67,376
+49,Ergonomic Chair,Electronics,Accessories,Novatech,1299.59,723.26,384
+50,Usb-C Hub,Automotive,Interior,Apex,184.81,107.57,205
+51,Engine Oil,Electronics,Accessories,Apex,1293.64,628.2,93
+52,Ergonomic Chair,Toys,Vehicles,Purelife,235.56,160.76,460
+53,Cast Iron Pan,Office,Furniture,Speedpro,363.23,148.44,324
+54,Usb-C Hub,Office,Stationery,Optima,407.38,281.24,191
+55,Sun Glasses,Automotive,Parts,Urbanfit,1174.12,639.49,306
+56,Sunscreen,Books,Reference,Urbanfit,1498.86,1048.67,449
+57,Wiper Blades,Beauty,Fragrance,Homecraft,1436.33,832.86,8
+58,Unnamed Product,Electronics,Displays,Speedpro,19.99,19.99,332
+59,Desk Organizer,Grocery,Pantry,Novatech,51.26,26.2,98
+60,Blender,Sports,Team,Purelife,1115.99,682.11,310
+61,Cast Iron Pan,Toys,Building,Vertex,1476.46,619.53,65
+62,Denim Jeans,Office,Furniture,Vertex,393.13,223.31,232
+63,Puzzle Set,Electronics,Accessories,Novatech,963.23,450.18,142
+64,Desk Organizer,Electronics,Displays,Speedpro,676.04,456.39,100
+65,Yoga Mat,Clothing,Men,Apex,98.94,68.04,426
+66,Football,Books,Fiction,Novatech,781.9,401.29,455
+67,External Ssd 1Tb,Electronics,Displays,Speedpro,1175.05,687.63,210
+68,Mechanical Keyboard,Grocery,Organic,Purelife,682.84,295.26,6
+69,External Ssd 1Tb,Books,Non-Fiction,Novatech,891.36,439.89,223
+70,Moisturizer,Automotive,Interior,Novatech,470.22,303.65,286
+71,Puzzle Set,Books,Non-Fiction,Purelife,519.0,295.74,171
+72,Doll House,Clothing,Accessories,Greenleaf,496.28,234.1,376
+73,Unnamed Product,Toys,Vehicles,Greenleaf,1211.86,697.67,391
+74,Noise Cancelling Headphones,Sports,Outdoor,Readwell,302.68,122.98,346
+75,Surge Protector,Books,Reference,Vertex,510.87,338.97,33
+76,Denim Jeans,Books,Children,Vertex,1193.36,669.05,404
+77,Toaster,Sports,Outdoor,Vertex,84.61,46.75,384
+78,Notebook,Automotive,Parts,Vertex,564.52,381.82,298
+79,Chef Knife,Books,Children,Purelife,333.18,141.74,384
+80,Olive Oil,Books,Fiction,Purelife,780.63,318.04,226
+81,Portable Charger,Clothing,Footwear,Apex,541.83,305.49,170
+82,Football,Sports,Outdoor,Novatech,378.78,183.54,177
+83,Remote Control Car,Office,Stationery,Homecraft,1418.98,787.18,402
+84,Almonds,Grocery,Snacks,Unknown,1085.14,718.5,156
+85,Mechanical Keyboard,Beauty,Fragrance,Vertex,752.19,508.96,78
+86,Football,Office,Equipment,Vertex,854.44,505.57,155
+87,Unnamed Product,Home & Kitchen,Cookware,Readwell,1013.94,426.86,29
+88,Mechanical Keyboard,Toys,Figures,Homecraft,261.87,120.91,221
+89,Car Polish,Uncategorized,Supplies,Speedpro,242.37,114.9,168
+90,Engine Oil,Office,Stationery,Readwell,693.0,448.39,435
+91,Toaster,Office,Equipment,Urbanfit,273.46,160.91,149
+92,External Ssd 1Tb,Books,Children,Speedpro,1048.57,498.94,259
+93,Unnamed Product,Grocery,Organic,Greenleaf,114.42,48.11,280
+94,Unnamed Product,Sports,Outdoor,Novatech,214.67,95.75,183
+95,4K Monitor,Automotive,Interior,Apex,1339.56,659.73,26
+96,Webcam Hd,Books,Non-Fiction,Apex,1159.74,770.86,408
+97,Sun Glasses,Electronics,Displays,Speedpro,1087.39,474.36,109
+98,Treadmill,Toys,Games,Vertex,19.99,19.99,111
+99,Tire Cleaner,Clothing,Women,Urbanfit,1474.73,870.98,452
+100,Air Freshener,Electronics,Displays,Vertex,105.92,46.31,121
+101,Unnamed Product,Electronics,Computing,Greenleaf,931.54,464.47,142
+102,Laptop Stand,Toys,Games,Homecraft,783.69,477.18,113
+103,Sunscreen,Home & Kitchen,Decor,Homecraft,784.59,354.72,281
+104,Chef Knife,Clothing,Accessories,Readwell,358.27,247.32,103
+105,Air Freshener,Beauty,Makeup,Greenleaf,124.61,81.77,388
+106,Science Journal,Home & Kitchen,Appliances,Urbanfit,894.79,410.45,469
+107,Mechanical Keyboard,Beauty,Makeup,Vertex,1293.16,860.6,471
+108,Wool Scarf,Toys,Games,Novatech,295.36,200.24,376
+109,Air Freshener,Beauty,Skincare,Vertex,56.58,33.88,82
+110,Ergonomic Chair,Toys,Figures,Readwell,968.36,542.24,453
+111,Yoga Mat,Clothing,Men,Speedpro,1102.22,443.01,86
+112,Wireless Mouse,Toys,Figures,Apex,149.81,96.52,95
+113,Dress Shirt,Books,Reference,Apex,1214.71,623.53,141
+114,Noise Cancelling Headphones✓,Grocery,Organic,Novatech,880.53,489.59,492
+115,Engine Oil,Beauty,Makeup,Speedpro,712.47,297.22,182
+116,Standing Desk,Toys,Vehicles,Greenleaf,9.6,5.74,243
+117,Chino Pants,Beauty,Skincare,Greenleaf,9.67,5.65,41
+118,Car Polish,Clothing,Accessories,Urbanfit,1480.36,630.82,426
+119,Almonds,Grocery,Pantry,Apex,256.23,157.51,82
+120,Treadmill,Sports,Outdoor,Greenleaf,1354.45,822.88,446
+121,External Ssd 1Tb,Toys,Figures,Readwell,967.75,412.98,379
+122,Chino Pants,Clothing,Footwear,Homecraft,1118.19,775.97,163
+123,Denim Jeans,Office,Furniture,Greenleaf,19.99,19.99,382
+124,4K Monitor,Sports,Fitness,Speedpro,900.32,578.96,78
+125,Chef Knife,Books,Fiction,Urbanfit,1272.85,718.37,172
+126,Car Polish,Toys,Figures,Apex,1485.51,929.45,297
+127,Webcam Hd,Sports,Equipment,Homecraft,1275.46,513.68,371
+128,Cable Organizer,Home & Kitchen,Decor,Urbanfit,1019.08,443.51,263
+129,Organic Rice,Toys,Vehicles,Speedpro,1454.73,1014.45,343
+130,Unnamed Product,Toys,Games,Homecraft,1298.01,742.19,140
+131,Standing Desk,Home & Kitchen,Decor,Optima,1192.53,767.82,10
+132,Desk Organizer,Automotive,Parts,Homecraft,1176.28,787.26,92
+133,Dress Shirt,Grocery,Snacks,Novatech,12.95,5.66,152
+134,Paper Clips,Electronics,Computing,Vertex,261.54,129.17,466
+135,Unnamed Product,Automotive,Interior,Urbanfit,911.22,423.55,183
+136,Puzzle Set,Sports,Team,Urbanfit,116.16,48.92,375
+137,Chino Pants,Office,Furniture,Apex,1073.09,649.43,208
+138,Ergonomic Chair,Beauty,Fragrance,Apex,547.41,239.25,269
+139,Yoga Mat,Grocery,Pantry,Urbanfit,885.29,553.8,92
+140,Desk Organizer,Toys,Figures,Vertex,829.74,345.06,371
+141,Perfume,Books,Children,Speedpro,1062.71,654.14,472
+142,Unnamed Product,Clothing,Footwear,Novatech,955.26,464.02,475
+143,Mechanical Keyboard,Toys,Vehicles,Vertex,1443.43,937.39,3
+144,Desk Organizer,Books,Fiction,Apex,1125.74,495.32,180
+145,Puzzle Set,Home & Kitchen,Storage,Readwell,745.77,363.98,109
+146,Building Blocks,Sports,Fitness,Apex,330.1,150.48,181
+147,Organic Rice,Clothing,Women,Purelife,740.6,336.72,415
+148,Olive Oil,Grocery,Beverages,Urbanfit,986.13,614.53,461
+149,Cast Iron Pan,Sports,Fitness,Speedpro,1422.81,963.34,431
+150,Denim Jeans,Clothing,Men,Vertex,169.04,89.64,148
+151,Desk Lamp,Books,Non-Fiction,Speedpro,1142.54,699.16,414
+152,Wiper Blades,Books,Non-Fiction,Apex,918.59,472.25,268
+153,Unnamed Product,Toys,Figures,Homecraft,336.54,139.42,20
+154,Treadmill,Grocery,Snacks,Novatech,321.9,203.16,66
+155,Shampoo,Office,Supplies,Vertex,1115.67,642.59,467
+156,Chino Pants,Grocery,Pantry,Unknown,293.42,165.83,129
+157,Tennis Racket,Grocery,Pantry,Urbanfit,1342.88,922.21,31
+158,Chino Pants,Toys,Figures,Speedpro,1112.36,535.54,94
+159,Coffee Maker,Electronics,Displays,Apex,890.2,368.26,121
+160,Leather Belt,Sports,Outdoor,Novatech,1413.35,833.6,497
+161,Desk Lamp,Automotive,Maintenance,Purelife,1419.9,979.12,90
+162,Usb-C Hub,Office,Stationery,Homecraft,808.39,376.86,137
+163,Unnamed Product,Books,Children,Greenleaf,237.67,107.93,144
+164,Wool Scarf,Toys,Vehicles,Optima,1328.44,830.45,6
+165,Unnamed Product,Clothing,Men,Novatech,579.06,233.26,405
+166,Basketball,Clothing,Women,Homecraft,1279.81,777.63,321
+167,Usb-C Hubω,Clothing,Footwear,Readwell,1238.25,821.82,196
+168,Surge Protector,Clothing,Women,Apex,740.26,430.35,91
+169,Football,Toys,Vehicles,Greenleaf,901.41,612.84,415
+170,Portable Charger,Home & Kitchen,Appliances,Vertex,1184.33,731.93,74
+171,Denim Jeans,Toys,Games,Homecraft,276.89,156.39,275
+172,Desk Organizer,Books,Children,Apex,806.63,323.35,435
+173,Car Polish,Clothing,Men,Optima,1436.63,968.13,124
+174,Blender,Home & Kitchen,Cookware,Apex,88.51,37.36,428
+175,Wool Scarf,Beauty,Haircare,Urbanfit,50.12,30.55,153
+176,Basketball,Electronics,Accessories,Speedpro,668.73,403.89,448
+177,Fiction Novel,Automotive,Maintenance,Homecraft,1379.12,574.82,200
+178,Portable Charger,Grocery,Organic,Homecraft,1225.75,528.69,185
+179,Football,Sports,Outdoor,Novatech,46.92,19.97,291
+180,Air Freshener,Beauty,Skincare,Speedpro,19.99,19.99,359
+181,Football,Automotive,General,Greenleaf,613.88,360.83,487
+182,Coffee Maker,Home & Kitchen,Appliances,Greenleaf,1212.17,608.15,184
+183,Unnamed Product,Toys,Vehicles,Urbanfit,64.81,31.94,444
+184,Ergonomic Chair,Grocery,Snacks,Greenleaf,750.86,406.95,131
+185,Olive Oil,Home & Kitchen,Cookware,Urbanfit,977.18,541.11,319
+186,Perfume,Toys,Figures,Homecraft,129.81,73.76,79
+187,Biography,Office,Equipment,Optima,566.84,305.79,43
+188,Cable Organizer,Toys,Figures,Greenleaf,1376.59,738.37,279
+189,Car Polish,Books,Reference,Greenleaf,222.53,103.13,11
+190,Puzzle Set,Home & Kitchen,Cookware,Readwell,408.41,169.95,458
+191,Basketball,Sports,Outdoor,Speedpro,1445.22,878.51,199
+192,Cast Iron Pan,Office,Furniture,Urbanfit,121.31,82.51,255
+193,Surge Protector,Toys,Games,Vertex,19.99,19.99,96
+194,Paper Clips,Office,Equipment,Readwell,1162.69,640.21,444
+195,Tire Cleaner,Grocery,Organic,Urbanfit,975.11,499.19,283
+196,Paper Clips,Sports,Equipment,Apex,656.62,265.88,477
+197,Tire Cleaner,Office,Stationery,Greenleaf,1126.16,489.15,438
+198,Cotton T-Shirt,Grocery,Organic,Optima,529.16,351.3,135
+199,Doll House,Electronics,Displays,Purelife,1011.57,695.71,220
+200,Building Blocks,Toys,Building,Optima,293.02,137.51,363
+201,Wiper Blades,Office,Equipment,Unknown,181.96,114.82,78
+202,Paper Clips,Clothing,Accessories,Homecraft,1381.28,774.38,125
+203,Sunscreen,Electronics,Accessories,Apex,1156.73,560.71,458
+204,Unnamed Product,Beauty,Haircare,Speedpro,743.89,438.94,230
+205,Dress Shirt,Home & Kitchen,Cookware,Readwell,451.63,206.78,15
+206,Ballpoint Pens,Home & Kitchen,Appliances,Urbanfit,770.05,419.27,488
+207,Unnamed Product,Grocery,Organic,Speedpro,703.22,448.62,300
+208,Chef Knife,Grocery,Organic,Speedpro,1430.86,723.84,459
+209,External Ssd 1Tb,Electronics,Accessories,Novatech,676.85,435.02,219
+210,Moisturizer Ñ,Books,Reference,Purelife,371.74,211.33,197
+211,Coffee Maker,Clothing,Footwear,Speedpro,793.25,393.48,100
+212,Tire Cleaner,Sports,General,Vertex,750.47,505.44,145
+213,Remote Control Car,Automotive,Care,Purelife,60.32,31.37,284
+214,Tire Cleaner,Toys,Games,Vertex,920.41,430.02,422
+215,Cable Organizer,Toys,Vehicles,Novatech,1490.33,947.08,56
+216,Science Journal,Beauty,Makeup,Speedpro,117.18,70.36,267
+217,Air Freshener,Sports,Team,Homecraft,993.59,616.6,105
+218,Portable Charger,Electronics,Computing,Homecraft,19.99,19.99,263
+219,Yoga Mat,Home & Kitchen,Cookware,Speedpro,1064.22,514.39,84
+220,Unnamed Product,Clothing,Men,Optima,225.19,119.23,77
+221,Organic Rice,Electronics,Displays,Speedpro,764.34,369.01,311
+222,Unnamed Product,Electronics,Computing,Homecraft,168.22,102.59,207
+223,Standing Desk,Sports,Equipment,Apex,333.72,224.37,318
+224,Yoga Mat,Books,Non-Fiction,Urbanfit,1279.57,850.12,87
+225,Mechanical Keyboard,Grocery,Pantry,Optima,893.03,559.48,396
+226,Science Journal,Beauty,Makeup,Purelife,1206.81,603.55,265
+227,Air Freshener,Automotive,Care,Speedpro,173.57,108.19,99
+228,Sunscreen,Sports,Equipment,Readwell,959.9,395.8,266
+229,Cotton T-Shirt,Grocery,Snacks,Readwell,653.01,391.35,155
+230,External Ssd 1Tb,Electronics,Displays,Unknown,1200.67,796.78,402
+231,Winter Jacket,Sports,Outdoor,Purelife,1430.75,863.53,197
+232,Standing Desk,Sports,Team,Readwell,1340.08,758.87,154
+233,Science Journal,Grocery,Beverages,Purelife,852.15,450.19,215
+234,Almonds,Automotive,Care,Optima,46.36,27.18,460
+235,Biography,Toys,Vehicles,Apex,19.99,19.99,148
+236,Football,Clothing,Men,Urbanfit,1297.14,639.84,479
+237,Engine Oil,Books,Fiction,Novatech,937.37,499.75,28
+238,Science Journal,Home & Kitchen,Appliances,Speedpro,609.8,247.88,72
+239,Rice Cooker,Automotive,Interior,Speedpro,260.3,166.58,237
+240,Puzzle Set,Sports,Equipment,Greenleaf,226.5,156.02,239
+241,Honey Jar,Home & Kitchen,Storage,Urbanfit,418.96,211.81,368
+242,Honey Jar,Home & Kitchen,Storage,Greenleaf,1074.19,487.8,362
+243,Unnamed Product,Beauty,Fragrance,Greenleaf,392.53,213.11,389
+244,Rice Cooker,Home & Kitchen,Decor,Purelife,162.61,106.05,472
+245,Unnamed Product,Toys,Vehicles,Urbanfit,1049.58,586.25,404
+246,Noise Cancelling Headphones,Clothing,Women,Optima,945.52,614.32,292
+247,Wiper Blades,Office,Furniture,Optima,531.39,231.36,118
+248,Paper Clips,Books,Reference,Apex,499.72,236.08,265
+249,Wiper Blades,Office,Stationery,Novatech,471.79,225.64,171
+250,Bluetooth Speaker,Automotive,Maintenance,Vertex,213.23,134.27,18
+251,Portable Charger,Office,Stationery,Purelife,1425.1,699.76,435
+252,Air Fryer,Electronics,Audio,Optima,37.05,19.12,193
+253,Organic Rice,Automotive,Interior,Novatech,1053.49,450.47,5
+254,Unnamed Product,Electronics,Computing,Homecraft,854.22,374.93,203
+255,Cotton T-Shirt,Clothing,Footwear,Greenleaf,986.59,673.28,399
+256,Toaster,Sports,Team,Homecraft,792.62,517.13,266
+257,Chef Knife,Home & Kitchen,Cookware,Novatech,188.5,108.66,153
+258,Desk Lamp,Office,Equipment,Speedpro,94.27,56.38,16
+259,Tennis Racket,Office,Supplies,Vertex,1406.14,742.81,373
+260,Bluetooth Speaker,Automotive,Parts,Vertex,1212.05,579.4,491
+261,Unnamed Product,Electronics,Accessories,Vertex,202.14,97.15,128
+262,Mechanical Keyboard✓,Office,Supplies,Greenleaf,190.83,108.2,209
+263,Desk Lamp,Office,Supplies,Homecraft,418.28,185.75,316
+264,Air Fryer,Electronics,Computing,Readwell,176.09,71.29,432
+265,Moisturizer,Electronics,Computing,Purelife,812.95,491.27,36
+266,History Book,Beauty,Fragrance,Urbanfit,218.89,106.66,76
+267,Noise Cancelling Headphones,Books,Reference,Vertex,163.81,84.25,332
+268,Portable Charger,Books,Children,Optima,1438.13,691.39,428
+269,Unnamed Product,Beauty,Haircare,Purelife,496.37,209.93,185
+270,Air Fryer,Toys,Vehicles,Urbanfit,676.2,431.93,174
+271,Desk Lamp,Automotive,General,Readwell,615.7,377.68,240
+272,Denim Jeans,Toys,Building,Speedpro,1304.83,616.44,150
+273,Basketball,Office,Stationery,Greenleaf,889.25,471.93,387
+274,Running Shoes,Office,Stationery,Optima,19.99,19.99,395
+275,Science Journal,Electronics,Displays,Homecraft,742.46,358.96,450
+276,Standing Desk,Home & Kitchen,Cookware,Vertex,524.27,355.12,341
+277,Standing Desk,Automotive,Interior,Novatech,314.22,152.26,485
+278,Olive Oil,Grocery,Snacks,Apex,783.73,546.98,374
+279,Moisturizer,Books,Fiction,Purelife,1206.43,496.45,51
+280,Ballpoint Pens,Automotive,Care,Homecraft,479.69,213.67,416
+281,Tire Cleaner™,Books,Fiction,Urbanfit,427.48,249.65,323
+282,Tennis Racket,Home & Kitchen,Storage,Optima,728.92,312.68,57
+283,History Book,Grocery,Snacks,Urbanfit,632.28,344.67,412
+284,Board Game,Electronics,Accessories,Purelife,1032.39,663.53,217
+285,Webcam Hd,Books,Reference,Apex,406.12,237.17,168
+286,Paper Clips,Electronics,Displays,Optima,34.77,19.49,80
+287,Building Blocks,Books,Reference,Novatech,1290.28,808.41,269
+288,Building Blocks,Electronics,Computing,Speedpro,1188.05,521.98,379
+289,Desk Lamp,Automotive,Parts,Speedpro,119.4,69.46,159
+290,Puzzle Set,Electronics,Accessories,Apex,770.96,402.36,142
+291,Desk Organizer,Toys,Building,Vertex,762.35,395.82,118
+292,Air Freshener,Sports,Team,Apex,846.9,495.39,242
+293,Air Fryer,Grocery,Snacks,Novatech,93.09,43.08,287
+294,Paper Clips,Books,Reference,Speedpro,752.21,385.66,387
+295,Ballpoint Pens,Home & Kitchen,Appliances,Optima,1123.47,452.51,60
+296,Biography,Sports,Team,Vertex,1081.3,552.95,309
+297,Almonds,Beauty,Haircare,Novatech,319.86,145.95,355
+298,Honey Jar,Electronics,General,Readwell,499.89,330.14,299
+299,Perfume,Toys,Games,Urbanfit,938.62,404.26,408
+300,Lipstick,Office,General,Homecraft,498.58,319.59,75
+301,Car Polish,Beauty,Skincare,Optima,1312.54,619.82,201
+302,Lipstick,Beauty,Fragrance,Readwell,1060.83,691.62,286
+303,Kettle,Automotive,Parts,Speedpro,1029.61,584.75,471
+304,Sunscreen,Electronics,Computing,Novatech,564.43,231.45,140
+305,Building Blocks,Sports,Team,Greenleaf,70.65,38.29,447
+306,Paper Clips,Electronics,Accessories,Apex,1212.1,716.65,31
+307,Paper Clips,Books,Fiction,Purelife,419.82,286.39,206
+308,Bluetooth Speaker,Automotive,Interior,Urbanfit,102.1,66.63,481
+309,Self Help Guide,Clothing,Footwear,Apex,843.03,486.72,494
+310,Sun Glasses,Books,Reference,Homecraft,1184.15,735.87,158
+311,History Book,Home & Kitchen,Storage,Greenleaf,271.11,148.29,296
+312,Ballpoint Pens,Home & Kitchen,Cookware,Readwell,677.25,413.05,257
+313,Cookbook,Books,Reference,Greenleaf,140.67,71.98,193
+314,4K Monitor,Clothing,Footwear,Purelife,19.99,19.99,95
+315,Olive Oil,Grocery,Organic,Speedpro,1214.78,839.69,449
+316,Wiper Blades,Toys,Games,Optima,166.23,114.99,384
+317,Football,Electronics,General,Urbanfit,1183.9,502.11,120
+318,Organic Rice,Books,Non-Fiction,Speedpro,139.79,94.2,342
+319,Almonds,Clothing,Accessories,Speedpro,1060.8,594.3,177
+320,Noise Cancelling Headphones,Office,Furniture,Apex,336.42,148.5,96
+321,Science Journal,Beauty,Makeup,Speedpro,655.91,340.72,264
+322,Almonds,Beauty,Skincare,Greenleaf,1210.3,727.46,216
+323,Science Journal,Clothing,Accessories,Urbanfit,640.34,358.28,196
+324,Desk Lamp,Uncategorized,Fragrance,Greenleaf,229.82,95.38,306
+325,Kettleñ,Sports,General,Novatech,641.42,332.81,89
+326,Standing Desk,Home & Kitchen,Decor,Optima,193.44,79.73,167
+327,Leather Belt,Clothing,Accessories,Urbanfit,915.97,436.97,334
+328,Desk Lamp,Toys,Building,Novatech,1256.09,680.64,389
+329,Self Help Guide,Home & Kitchen,General,Speedpro,1121.56,541.07,236
+330,Dumbbell Set,Books,Fiction,Speedpro,150.23,74.91,199
+331,Mechanical Keyboard,Beauty,Fragrance,Speedpro,517.7,212.09,436
+332,Desk Lamp,Automotive,Maintenance,Greenleaf,948.91,427.03,180
+333,Doll House,Electronics,Accessories,Apex,1493.75,695.33,56
+334,Baseball Cap,Toys,Figures,Purelife,1298.01,726.56,115
+335,Tire Cleanerñ,Sports,Equipment,Apex,1136.45,677.25,498
+336,Chino Pants,Office,Furniture,Purelife,956.43,430.33,320
+337,Ergonomic Chair,Electronics,Displays,Urbanfit,1428.0,876.56,102
+338,Biography,Electronics,Computing,Greenleaf,101.89,44.15,309
+339,Wool Scarf,Clothing,Men,Speedpro,371.06,246.76,275
+340,Desk Organizer,Grocery,Organic,Optima,1073.56,571.15,403
+341,Leather Belt,Office,Stationery,Readwell,1271.36,753.42,37
+342,Engine Oil,Sports,Team,Urbanfit,1129.98,549.77,113
+343,Shampoo,Sports,Outdoor,Urbanfit,1072.13,522.88,196
+344,Air Fryer,Books,Reference,Greenleaf,46.86,21.14,176
+345,Wiper Blades,Beauty,Makeup,Purelife,474.86,219.35,76
+346,Cotton T-Shirt,Beauty,Makeup,Optima,976.74,607.94,186
+347,Remote Control Car,Beauty,Skincare,Greenleaf,941.46,446.62,131
+348,Dress Shirt,Books,Non-Fiction,Apex,1036.09,455.64,155
+349,Air Fryer,Office,Equipment,Apex,369.68,200.67,51
+350,Coffee Maker,Sports,Fitness,Vertex,899.44,627.51,128
+351,Cookbook,Home & Kitchen,Storage,Readwell,741.43,408.47,320
+352,Dress Shirt,Beauty,Makeup,Purelife,733.92,412.15,93
+353,Cable Organizer,Books,Reference,Vertex,1145.45,569.44,98
+354,Sun Glasses,Office,Furniture,Homecraft,1279.26,692.84,438
+355,Perfume,Beauty,Fragrance,Novatech,221.74,112.22,412
+356,Honey Jar,Electronics,Computing,Purelife,1151.73,716.04,408
+357,Wiper Blades,Sports,Fitness,Novatech,662.94,342.75,491
+358,Engine Oil,Office,Equipment,Greenleaf,378.51,236.55,166
+359,Board Game,Home & Kitchen,Storage,Optima,1237.33,603.11,11
+360,External Ssd 1Tb,Beauty,Fragrance,Purelife,1306.72,903.51,132
+361,Usb-C Hub,Toys,Figures,Novatech,214.69,142.11,167
+362,Engine Oil,Beauty,Skincare,Apex,427.55,231.11,332
+363,Portable Charger,Toys,Games,Vertex,1151.83,643.08,354
+364,Organic Riceω,Toys,Games,Homecraft,19.99,19.99,272
+365,Cast Iron Pan,Office,Supplies,Apex,1156.03,755.36,399
+366,Tennis Racket,Beauty,Fragrance,Homecraft,1432.21,584.61,449
+367,Olive Oil,Toys,Building,Homecraft,189.04,109.09,63
+368,Baseball Cap,Office,Stationery,Speedpro,762.51,530.36,409
+369,Air Freshener,Clothing,Accessories,Purelife,19.99,19.99,222
+370,Science Journal,Clothing,Accessories,Urbanfit,347.88,152.51,79
+371,Car Polish,Electronics,Computing,Optima,1144.61,712.62,414
+372,Shampoo,Clothing,Women,Novatech,1319.21,658.91,455
+373,Unnamed Product,Electronics,Displays,Apex,1370.79,743.94,212
+374,Desk Organizer,Office,Stationery,Vertex,663.41,284.55,252
+375,Cast Iron Pan,Automotive,Interior,Vertex,193.11,90.35,94
+376,Science Journal,Grocery,Snacks,Novatech,496.29,317.59,323
+377,Cast Iron Pan,Electronics,Computing,Homecraft,1469.39,947.9,295
+378,Coffee Maker,Sports,Equipment,Readwell,682.51,451.54,395
+379,Standing Desk,Beauty,Fragrance,Greenleaf,1003.67,437.68,364
+380,Tennis Racket,Toys,Building,Homecraft,464.0,213.26,381
+381,Winter Jacket,Automotive,Care,Apex,846.5,499.83,439
+382,Winter Jacket,Office,Equipment,Speedpro,813.52,439.63,69
+383,Science Journal,Sports,Team,Greenleaf,5.52,3.47,413
+384,Toaster,Home & Kitchen,Decor,Speedpro,589.89,366.85,483
+385,Chef Knife,Sports,Team,Greenleaf,19.99,19.99,380
+386,Winter Jacket,Beauty,Fragrance,Urbanfit,110.24,66.96,406
+387,Biography,Clothing,Men,Speedpro,340.82,201.57,442
+388,Self Help Guide,Automotive,Maintenance,Homecraft,1357.56,633.19,222
+389,Cable Organizer,Grocery,Organic,Apex,1495.96,651.1,391
+390,Doll House,Electronics,Accessories,Speedpro,1223.84,498.95,290
+391,Football,Toys,Building,Homecraft,152.7,96.98,166
+392,Fiction Novel,Home & Kitchen,Appliances,Urbanfit,1154.06,758.21,170
+393,Desk Organizer,Books,Reference,Urbanfit,1111.08,511.81,438
+394,Tennis Racket,Grocery,Snacks,Optima,508.81,288.99,91
+395,Portable Charger,Clothing,Accessories,Readwell,301.93,208.7,165
+396,Olive Oil,Books,Non-Fiction,Homecraft,1240.06,797.93,74
+397,Toaster,Office,Equipment,Vertex,1447.05,828.63,461
+398,Fiction Novel,Beauty,Fragrance,Urbanfit,1061.58,688.15,359
+399,Desk Organizer,Clothing,Accessories,Optima,870.53,406.7,137
+400,Webcam Hd,Grocery,Organic,Purelife,693.05,424.07,32
+401,External Ssd 1Tb,Sports,Team,Speedpro,1432.32,767.2,275
+402,Science Journal,Office,Equipment,Purelife,499.14,315.65,36
+403,Stapler,Home & Kitchen,Appliances,Greenleaf,623.49,311.46,48
+404,Lipstick,Toys,Figures,Urbanfit,1208.34,556.06,179
+405,Desk Lamp,Clothing,Footwear,Optima,512.87,252.27,409
+406,Perfume,Home & Kitchen,Appliances,Urbanfit,1289.73,737.98,456
+407,Baseball Cap,Grocery,Pantry,Readwell,763.45,461.82,302
+408,Standing Desk,Office,Furniture,Greenleaf,748.98,449.85,33
+409,Shampoo,Grocery,Beverages,Vertex,216.36,120.29,339
+410,Stapler,Automotive,Parts,Speedpro,846.67,434.44,251
+411,Cable Organizer,Grocery,Organic,Novatech,485.65,207.25,456
+412,Paper Clips,Beauty,Skincare,Speedpro,264.16,147.19,91
+413,Laptop Stand,Clothing,Accessories,Vertex,1366.43,631.03,352
+414,Biography,Books,General,Homecraft,12.07,5.76,472
+415,Yoga Mat,Sports,Equipment,Greenleaf,311.28,125.49,354
+416,Green Tea,Books,Fiction,Readwell,197.68,121.48,355
+417,Desk Organizer,Office,Supplies,Greenleaf,433.22,240.64,18
+418,Cable Organizer,Electronics,Displays,Urbanfit,171.54,108.2,339
+419,Chino Pants,Beauty,Skincare,Homecraft,1153.97,481.12,194
+420,Biography,Books,Non-Fiction,Vertex,760.85,431.44,73
+421,Dumbbell Set,Clothing,Accessories,Unknown,89.78,37.49,198
+422,Cotton T-Shirt,Electronics,Audio,Vertex,19.99,19.99,121
+423,Kettle,Grocery,Organic,Urbanfit,520.98,269.1,131
+424,Perfume,Toys,Games,Purelife,1111.3,579.81,452
+425,Green Tea,Toys,Figures,Homecraft,668.61,457.6,373
+426,Shampoo,Automotive,Parts,Vertex,1351.02,621.23,172
+427,Wool Scarf,Automotive,Parts,Vertex,991.17,587.14,294
+428,Cast Iron Pan,Beauty,Makeup,Optima,230.26,152.61,346
+429,External Ssd 1Tb,Electronics,Audio,Readwell,133.19,67.78,465
+430,Green Tea,Home & Kitchen,Storage,Speedpro,715.25,404.61,240
+431,Self Help Guide,Books,Fiction,Speedpro,1036.49,653.14,300
+432,Shampoo,Office,Furniture,Apex,1396.75,587.57,69
+433,Building Blocks,Clothing,Women,Greenleaf,1375.55,722.61,86
+434,Unnamed Product,Sports,Fitness,Novatech,292.06,204.01,336
+435,Desk Lamp,Electronics,Computing,Speedpro,502.7,306.17,171
+436,Notebook,Toys,Figures,Apex,1281.16,865.59,43
+437,Unnamed Product,Clothing,Men,Apex,1292.9,520.9,6
+438,Basketball,Office,Stationery,Apex,1305.88,544.36,71
+439,Desk Lamp,Clothing,Men,Homecraft,282.42,129.68,253
+440,Dress Shirt,Office,Stationery,Homecraft,706.46,431.55,38
+441,Treadmill,Books,Non-Fiction,Readwell,1135.64,704.82,271
+442,Kettle,Home & Kitchen,Cookware,Greenleaf,425.76,181.57,301
+443,Shampoo,Office,Stationery,Readwell,1048.61,518.06,381
+444,Sun Glasses,Beauty,Makeup,Greenleaf,68.83,30.47,384
+445,Noise Cancelling Headphonesδ,Beauty,Makeup,Homecraft,1310.67,678.12,76
+446,Cast Iron Pan,Toys,Vehicles,Speedpro,37.4,24.51,249
+447,Bluetooth Speaker,Clothing,Men,Homecraft,533.28,215.39,157
+448,Basketball,Office,Equipment,Urbanfit,947.53,654.87,32
+449,Perfume,Books,Reference,Readwell,628.41,360.18,169
+450,Denim Jeans,Office,Furniture,Purelife,1448.37,620.88,384
+451,Treadmill,Grocery,Organic,Readwell,126.54,64.43,398
+452,Toaster,Electronics,Accessories,Purelife,338.87,190.07,421
+453,Chino Pants,Office,Stationery,Speedpro,1436.79,927.56,5
+454,Chef Knife,Electronics,Audio,Optima,220.36,117.51,160
+455,Self Help Guide✓,Books,Children,Purelife,686.63,445.99,192
+456,Unnamed Product,Toys,Vehicles,Novatech,971.25,596.44,254
+457,External Ssd 1Tb,Clothing,Women,Apex,214.16,120.69,268
+458,Building Blocks,Automotive,Care,Optima,1043.4,635.63,245
+459,Blender,Home & Kitchen,Appliances,Speedpro,1138.99,469.31,301
+460,Air Fryer,Electronics,Accessories,Optima,876.19,514.18,136
+461,Notebook,Books,Reference,Optima,585.68,270.22,57
+462,Cable Organizer,Books,Non-Fiction,Readwell,1115.5,464.39,320
+463,Kettle,Electronics,Accessories,Speedpro,19.99,19.99,200
+464,Sun Glasses,Grocery,General,Novatech,1381.61,945.07,476
+465,Olive Oil,Office,Furniture,Readwell,575.21,233.95,394
+466,Cotton T-Shirt,Sports,Equipment,Novatech,456.55,310.28,89
+467,Ergonomic Chair,Grocery,Snacks,Speedpro,1088.58,706.64,211
+468,Mechanical Keyboard,Electronics,Audio,Readwell,867.25,395.83,353
+469,Wireless Mouse,Electronics,Displays,Apex,1493.77,801.97,241
+470,Perfume,Beauty,Haircare,Readwell,989.6,595.54,455
+471,Paper Clips,Toys,Building,Urbanfit,614.69,309.21,470
+472,Leather Belt,Automotive,Interior,Speedpro,900.18,627.56,278
+473,Cable Organizer,Sports,Outdoor,Purelife,865.31,448.65,336
+474,Blender,Toys,Building,Optima,867.63,475.95,468
+475,Yoga Mat,Uncategorized,Games,Apex,366.53,196.38,60
+476,Moisturizer,Electronics,Accessories,Vertex,994.06,407.02,163
+477,Kettle,Toys,Building,Speedpro,1052.43,706.98,243
+478,Ergonomic Chair,Clothing,Accessories,Greenleaf,129.02,67.5,5
+479,Noise Cancelling Headphones,Grocery,Pantry,Novatech,1403.62,611.0,264
+480,Unnamed Product,Home & Kitchen,Cookware,Novatech,443.61,276.53,334
+481,Sunscreen,Home & Kitchen,Appliances,Apex,70.58,31.18,379
+482,Noise Cancelling Headphones,Beauty,Makeup,Readwell,659.95,402.97,34
+483,Fiction Novel,Beauty,Makeup,Vertex,1317.27,604.57,337
+484,Perfume,Uncategorized,Pantry,Unknown,838.26,533.49,57
+485,Cookbook,Electronics,Accessories,Greenleaf,880.42,408.72,88
+486,Paper Clips,Clothing,Women,Urbanfit,1288.74,806.78,429
+487,Blender,Toys,Building,Purelife,1242.81,723.23,443
+488,Denim Jeans,Automotive,Parts,Novatech,721.64,410.26,360
+489,Leather Belt,Electronics,Accessories,Vertex,1160.5,571.48,485
+490,Engine Oil,Office,Furniture,Readwell,582.2,396.04,447
+491,Notebook,Beauty,Haircare,Readwell,345.61,207.68,96
+492,Running Shoes,Sports,Outdoor,Urbanfit,1204.35,742.87,149
+493,Chef Knife,Beauty,Haircare,Greenleaf,899.2,399.16,310
+494,Cotton T-Shirt,Automotive,Parts,Vertex,19.99,19.99,215
+495,Unnamed Product,Grocery,Pantry,Apex,1472.45,831.27,137
+496,Unnamed Product,Toys,Vehicles,Homecraft,1388.98,813.24,292
+497,Moisturizer,Home & Kitchen,Cookware,Unknown,1261.94,721.04,314
+498,Cookbook,Clothing,Men,Readwell,1215.27,573.16,157
+499,Lipstick,Books,Fiction,Speedpro,672.01,310.16,344
+500,Stapler,Electronics,Displays,Speedpro,516.71,269.31,111

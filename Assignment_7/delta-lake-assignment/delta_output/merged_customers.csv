@@ -1,0 +1,20 @@
+customer_id,first_name,last_name,city,state,email
+1006,Frank,Martinez,Miami,FL,frank@example.com
+1007,Grace,Wilson,Portland,OR,grace@example.com
+1015,Omar,Hassan,Las Vegas,NV,omar@example.com
+1016,Priya,Das,Houston,TX,priya@example.com
+1017,Quinn,Adams,Memphis,TN,quinn@example.com
+1018,Rahul,Mehta,Denver,CO,rahul@example.com
+1019,Sara,Ahmed,Baltimore,MD,sara@example.com
+1002,Bob,Smith,Denver,CO,bob.updated@example.com
+1003,Carol,Lee,Austin,TX,carol@example.com
+1008,Heena,Patel,San Diego,CA,heena.new@example.com
+1009,Imran,Khan,Phoenix,AZ,imran@example.com
+1001,Alice,Johnson,Seattle,WA,alice@example.com
+1004,David,Kim,Boston,MA,david@example.com
+1005,Eve,Garcia,Chicago,IL,eve@example.com
+1010,Julia,Nguyen,Atlanta,GA,julia@example.com
+1011,Karan,Sharma,San Jose,CA,karan@example.com
+1012,Lisa,Wang,Portland,OR,lisa@example.com
+1013,Mohit,Rao,Charlotte,NC,mohit@example.com
+1014,Nina,Lopez,Dallas,TX,nina@example.com

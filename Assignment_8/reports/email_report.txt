@@ -1,0 +1,6 @@
+E-Commerce Order Analytics System - Email Validation Report
+============================================================
+Total emails checked: 782
+Invalid emails: 0
+
+customer_id,email

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Real-Time Credit Card Fraud Risk Scoring Pipeline
 
 This project builds a simple Databricks pipeline for detecting risky credit-card transactions. It uses the medallion design: Bronze for raw ingest, Silver for cleaning and validation, and Gold for fraud scoring and dashboard output.
@@ -230,3 +231,6 @@ Static verification completed locally
 ------------------------------------
 - Python syntax checks and tests were run locally where possible.
 - Databricks execution and workspace-specific table creation still require running the notebooks inside the target Databricks workspace.
+=======
+# Celebal_Technologies
+>>>>>>> c3396f1cab8de05adea3b2d755b00911139e2698

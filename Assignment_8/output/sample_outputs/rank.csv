@@ -1,0 +1,727 @@
+customer_id,name,region,revenue,rank_in_region
+691,Elaine Charles,Africa,85316.57,1
+31,Barbara Sanchez,Africa,81667.47,2
+198,Morgan Pugh,Africa,78995.34,3
+710,William Barnes,Africa,75244.46,4
+50,Julia Moore,Africa,72645.19,5
+567,Stephen Hull,Africa,71320.35,6
+318,Loretta Blevins,Africa,71093.78,7
+356,Jim Hendricks,Africa,69839.46,8
+673,Derek Myers,Africa,68679.39,9
+513,Michael Stephens,Africa,66725.29,10
+733,Catherine Lee,Africa,65353.9,11
+264,Donna Parker,Africa,64422.77,12
+474,Amanda Hernandez,Africa,59962.27,13
+665,Crystal Lewis,Africa,59424.43,14
+462,Nancy May,Africa,58823.08,15
+330,Daniel Martin,Africa,58280.25,16
+350,Allison Luna,Africa,55504.99,17
+178,Antonio Wood,Africa,55085.48,18
+69,Elizabeth Gray,Africa,54707.6,19
+241,Patrick Rose,Africa,54359.08,20
+77,Nicole Osborne,Africa,53979.17,21
+412,Kristina Jones,Africa,53001.94,22
+413,William Knapp,Africa,52064.53,23
+483,John Ruiz,Africa,51557.87,24
+758,Michael Castro,Africa,51202.82,25
+597,Lisa Smith,Africa,48787.78,26
+85,Steven Brown,Africa,48276.25,27
+259,Veronica Daniels,Africa,48211.9,28
+132,Mia Rivera,Africa,47172.83,29
+613,Mary Vaughn,Africa,46255.26,30
+686,Juan Serrano,Africa,45090.28,31
+253,Christopher Villegas,Africa,44987.49,32
+218,Curtis Scott,Africa,44382.01,33
+373,Ashley Sanchez,Africa,44123.2,34
+682,Elijah Knight,Africa,43057.44,35
+779,Maria Walker,Africa,42885.87,36
+634,Mary Chapman,Africa,42523.57,37
+23,Daniel Cox,Africa,42341.86,38
+456,Nancy Mcdowell,Africa,42065.66,39
+406,Derek Flores,Africa,41408.8,40
+48,Jade Carr,Africa,41319.18,41
+798,Andrew Gray,Africa,39990.22,42
+642,William Benson,Africa,39446.03,43
+131,Lisa Costa,Africa,39096.74,44
+727,Sonya Wilkins,Africa,38646.06,45
+423,Zachary Arnold,Africa,38615.52,46
+532,John Jones,Africa,37870.58,47
+98,Larry Lane,Africa,37507.17,48
+684,Dennis Quinn😀,Africa,37248.62,49
+393,Stephanie Sanders,Africa,35958.48,50
+116,Audrey Harrison,Africa,35423.35,51
+221,Unknown Customer,Africa,35373.46,52
+19,Nicole Potter,Africa,34437.87,53
+669,Shannon Sullivan,Africa,34234.15,54
+246,Jeffrey Flores,Africa,34185.97,55
+312,Samantha Salas,Africa,33886.32,56
+222,Michael Jones,Africa,33784.06,57
+112,David Herrera,Africa,33764.87,58
+379,Adam Arnold,Africa,33211.69,59
+47,Michael Jones,Africa,33028.76,60
+315,Todd Bernard,Africa,32791.92,61
+615,Dale Pruitt,Africa,32604.59,62
+666,Amanda Park,Africa,32579.05,63
+384,Clayton Gray,Africa,31960.5,64
+35,Joshua Wright,Africa,31766.84,65
+152,Jennifer Malone,Africa,30964.92,66
+106,Nicholas Johnson,Africa,30914.99,67
+452,Mallory Simpson,Africa,30914.65,68
+766,Melissa Martinez,Africa,30507.77,69
+368,Randy Allen,Africa,30501.3,70
+28,Caleb Smith,Africa,29822.81,71
+275,Valerie Contreras,Africa,29769.89,72
+429,Brenda Bailey,Africa,29766.81,73
+495,Dana Foster,Africa,29661.3,74
+604,Chelsea Strickland,Africa,28915.9,75
+606,Jimmy Smith,Africa,28235.26,76
+227,John Kim,Africa,26686.26,77
+416,Deborah Rasmussen,Africa,26627.8,78
+237,Colleen Orr,Africa,26411.34,79
+54,Charles Ware,Africa,26394.13,80
+279,Unknown Customer,Africa,25506.01,81
+372,Brandy Cortez,Africa,25437.64,82
+323,Sarah Russell,Africa,24848.09,83
+166,Debbie Parker,Africa,24815.66,84
+139,Marilyn Jimenez,Africa,24438.76,85
+741,Patricia Adams,Africa,23288.46,86
+14,Nicole Day™,Africa,23052.61,87
+587,Victoria Cooper,Africa,22350.05,88
+578,Rachel Trujillo,Africa,21823.42,89
+524,Michelle Yu,Africa,20449.39,90
+167,Christopher Phillips,Africa,19871.5,91
+204,Cynthia Johnson,Africa,19823.38,92
+272,Unknown Customer,Africa,18227.82,93
+103,Gregory Boyd,Africa,17575.11,94
+159,Erica Moore,Africa,17442.3,95
+348,Shane Starkñ,Africa,16912.98,96
+460,Unknown Customer,Africa,16300.37,97
+771,Michelle Nguyen,Africa,16196.76,98
+473,Jennifer Wang,Africa,15598.09,99
+614,Garrett Anderson,Africa,15534.91,100
+122,Christopher Allen,Africa,14251.04,101
+111,Michael Chavez,Africa,14241.66,102
+61,Jeffrey Velasquez,Africa,14030.06,103
+18,Allison Maddox,Africa,13279.05,104
+639,Tara Chavez,Africa,13237.45,105
+238,Erica Young,Africa,13173.55,106
+155,Brandon Flynn,Africa,12666.12,107
+457,Brett Garrett,Africa,11825.39,108
+618,Katrina Ray,Africa,11770.86,109
+414,Tanya Miles,Africa,11221.57,110
+420,Michael Cooper,Africa,10071.07,111
+219,Gregory Mejia,Africa,9853.85,112
+52,Cynthia Calderon,Africa,9316.35,113
+231,Donald Bailey,Africa,8885.73,114
+346,Unknown Customer,Africa,8771.37,115
+623,Tara Williams,Africa,5779.12,116
+510,Edgar Mendez,Africa,5573.92,117
+9,Melissa Delacruz,Africa,3634.46,118
+201,Lindsay Bruce,Africa,2194.0,119
+575,William Bates,Africa,1209.33,120
+754,Melissa Gonzalez,Africa,1104.0,121
+194,Robert Wilcox,Africa,664.2,122
+150,Eric Harrison,Africa,587.97,123
+695,Bill Wong😀,Africa,335.92,124
+71,Diana Marshall,Africa,105.86,125
+441,Shannon Bailey,Asia Pacific,100598.09,1
+361,Thomas Atkinson,Asia Pacific,83536.88,2
+397,Daniel Smith,Asia Pacific,77150.6,3
+681,Rachel Stewart,Asia Pacific,74862.41,4
+213,Jenna Butler,Asia Pacific,73975.72,5
+519,Stacey Elliott,Asia Pacific,71601.71,6
+591,Roy Woods,Asia Pacific,67595.11,7
+529,Lisa Carr,Asia Pacific,67288.67,8
+537,Eugene Jones,Asia Pacific,65921.46,9
+713,Nancy Wolfe,Asia Pacific,65490.08,10
+289,John Aguirre,Asia Pacific,63205.2,11
+232,Sharon Collins,Asia Pacific,61061.81,12
+365,Kathleen Ramsey,Asia Pacific,61028.12,13
+311,Robert Gutierrez,Asia Pacific,60842.64,14
+220,Bethany Maldonado,Asia Pacific,58224.63,15
+600,Andrew Norris,Asia Pacific,58000.33,16
+345,Julie Lane,Asia Pacific,57897.67,17
+366,Mason Krueger,Asia Pacific,57843.66,18
+648,John Mueller,Asia Pacific,55989.87,19
+435,James Cruz,Asia Pacific,55701.53,20
+415,Elizabeth Jackson,Asia Pacific,52877.49,21
+499,David Howard,Asia Pacific,52645.8,22
+96,Thomas Wilson,Asia Pacific,51999.02,23
+191,Cynthia Kelley,Asia Pacific,51450.04,24
+261,Pamela Paul,Asia Pacific,51320.31,25
+494,Unknown Customer,Asia Pacific,50628.24,26
+765,Kimberly Mcmillan,Asia Pacific,48992.4,27
+658,Christopher Walker,Asia Pacific,44706.8,28
+539,Brian Rivera,Asia Pacific,44624.24,29
+217,William Bullock,Asia Pacific,44436.61,30
+7,Unknown Customer,Asia Pacific,44435.12,31
+439,Ashley Adams,Asia Pacific,44143.71,32
+418,Kelsey Chapman,Asia Pacific,43216.59,33
+603,William Williamson,Asia Pacific,43052.83,34
+594,Wesley Torres,Asia Pacific,41595.97,35
+258,Bradley Gonzalez,Asia Pacific,41343.55,36
+791,David Olson,Asia Pacific,41304.61,37
+531,Lorraine Santiago,Asia Pacific,40624.96,38
+316,Janet Vaughn,Asia Pacific,39818.32,39
+502,Randy Williams,Asia Pacific,39709.08,40
+421,Connor Bowen,Asia Pacific,39358.58,41
+714,Kayla Bell,Asia Pacific,38972.28,42
+81,Michelle Coleğ,Asia Pacific,36067.99,43
+719,Joshua Becker,Asia Pacific,35585.09,44
+310,John Armstrong,Asia Pacific,34126.19,45
+358,Angela Vargas,Asia Pacific,33948.61,46
+242,John Davidson,Asia Pacific,33913.43,47
+635,Stephanie Taylor,Asia Pacific,33630.19,48
+777,Russell Carter,Asia Pacific,33531.08,49
+283,Fernando Donovan,Asia Pacific,32995.51,50
+75,Charles Perry,Asia Pacific,31968.29,51
+72,Susan Fitzgerald,Asia Pacific,31615.29,52
+84,Heather Mccarthy,Asia Pacific,31329.68,53
+209,Brian Harris,Asia Pacific,31233.03,54
+560,Hannah Williams,Asia Pacific,31166.66,55
+476,Stephanie Allen,Asia Pacific,30176.88,56
+197,David Brown,Asia Pacific,30077.7,57
+179,Cory Jennings,Asia Pacific,29717.36,58
+487,Steven Campbell,Asia Pacific,29308.75,59
+99,Shelly Gonzalez,Asia Pacific,29049.35,60
+68,Kyle Ortiz,Asia Pacific,27788.87,61
+255,John Sandoval,Asia Pacific,27690.1,62
+211,Jerry Hansen,Asia Pacific,27675.21,63
+632,James Martinez,Asia Pacific,27483.95,64
+144,Amanda Reed,Asia Pacific,27315.54,65
+91,Elizabeth Miller,Asia Pacific,26635.93,66
+431,John Wilson,Asia Pacific,26563.2,67
+619,Matthew Mills,Asia Pacific,25911.18,68
+334,Sean Adams,Asia Pacific,25676.22,69
+137,Anthony Mccoy,Asia Pacific,25584.6,70
+45,Emily Evans,Asia Pacific,25295.89,71
+254,Cynthia Zavala,Asia Pacific,24760.41,72
+87,Kenneth Price,Asia Pacific,24524.72,73
+706,Catherine Ruiz,Asia Pacific,24389.42,74
+786,Heidi Johnson,Asia Pacific,23819.68,75
+351,Steven Ball,Asia Pacific,23638.36,76
+13,Leslie Adams,Asia Pacific,23619.96,77
+408,John Bennett,Asia Pacific,23577.18,78
+369,Kyle Ward,Asia Pacific,22885.72,79
+133,Lisa Pierce,Asia Pacific,22773.46,80
+364,Joseph Nunez,Asia Pacific,20243.86,81
+739,Amanda Haynes,Asia Pacific,20104.19,82
+49,Sarah Garciağ,Asia Pacific,19988.36,83
+428,Michelle Rose,Asia Pacific,19729.65,84
+543,Jamie Little,Asia Pacific,19639.25,85
+380,Tiffany Smith,Asia Pacific,19223.99,86
+307,Laura Swanson,Asia Pacific,18848.77,87
+592,Stephanie Mcclain,Asia Pacific,18282.9,88
+585,Steven Wilson,Asia Pacific,18066.52,89
+146,Robert Flores,Asia Pacific,17455.09,90
+536,Kenneth Flores,Asia Pacific,16771.32,91
+172,Miguel Curry,Asia Pacific,16440.94,92
+775,Alex Mills,Asia Pacific,15672.65,93
+270,Nathan Hines,Asia Pacific,15281.77,94
+617,Paige Alexander,Asia Pacific,15017.04,95
+340,Michael Stark,Asia Pacific,14773.8,96
+82,Kimberly Washington,Asia Pacific,14616.07,97
+557,Justin Nichols,Asia Pacific,14486.23,98
+235,Chris Richard,Asia Pacific,13641.41,99
+266,Danielle Moody,Asia Pacific,13046.53,100
+109,Travis Mcguire,Asia Pacific,12639.61,101
+294,Lisa Peck,Asia Pacific,11608.79,102
+319,Jennifer Reed,Asia Pacific,10446.62,103
+327,Tyler Zuniga,Asia Pacific,9940.7,104
+326,Nicole Thompson,Asia Pacific,9928.68,105
+789,James Moss,Asia Pacific,9852.8,106
+545,Unknown Customer,Asia Pacific,9776.39,107
+638,Tiffany Moon,Asia Pacific,9610.88,108
+136,Brett Adams,Asia Pacific,9495.36,109
+257,Crystal Cain,Asia Pacific,8953.65,110
+53,Tina Martin,Asia Pacific,7727.01,111
+26,Rodney Lewis,Asia Pacific,7404.6,112
+538,Patricia Bush,Asia Pacific,7305.08,113
+471,Gerald Ruiz,Asia Pacific,7107.37,114
+108,Christopher Cortez,Asia Pacific,6598.02,115
+295,Wendy Owens,Asia Pacific,6100.42,116
+780,Kathy Kent,Asia Pacific,5681.16,117
+764,Denise Page,Asia Pacific,5168.94,118
+467,Jamie Lawson,Asia Pacific,5133.78,119
+523,Marcus Johnson,Asia Pacific,4774.39,120
+321,John Williams,Asia Pacific,2927.9,121
+74,James Johnson,Europe,94463.83,1
+160,Hannah Bryant,Europe,87435.6,2
+153,Gabrielle Mitchell,Europe,87315.02,3
+588,Henry Miller,Europe,83715.9,4
+245,Sarah Perry,Europe,76625.44,5
+712,Rachel Ryan,Europe,76622.74,6
+520,Unknown Customer,Europe,75568.54,7
+297,Carla Cameron,Europe,74305.0,8
+195,Ronald Ortega,Europe,73235.56,9
+236,Christine Harper,Europe,73001.99,10
+156,Amanda Knight,Europe,72886.01,11
+792,Elizabeth Mcpherson,Europe,70626.86,12
+381,Daniel Davis,Europe,69784.22,13
+759,Unknown Customer,Europe,66587.49,14
+200,Daniel Bruce,Europe,65985.25,15
+590,Kristen Chan,Europe,65078.05,16
+688,Kayla Lewis,Europe,61536.49,17
+740,Kaitlyn Peterson,Europe,59073.32,18
+256,Matthew Day,Europe,58747.55,19
+162,Tiffany Barrett,Europe,57195.83,20
+488,Alan Gonzalez,Europe,56508.12,21
+576,Justin Cohen,Europe,51960.91,22
+296,William Levy,Europe,50685.84,23
+485,Robert Cortez,Europe,50677.98,24
+772,Sarah Dunn,Europe,49382.41,25
+88,Amy Morrison,Europe,49322.83,26
+598,William Martinez,Europe,47761.44,27
+469,Victor Wheeler,Europe,47666.19,28
+27,Emily Brooks,Europe,47285.68,29
+4,Robert Cole,Europe,46165.42,30
+493,Robert Woodward,Europe,45826.24,31
+16,William Davis,Europe,44855.42,32
+123,Hannah Harrison,Europe,44061.93,33
+679,Kelly Jones,Europe,43975.53,34
+521,Jesse Robinson,Europe,43222.57,35
+46,Anna Garcia,Europe,42954.2,36
+770,Courtney Anderson,Europe,41754.94,37
+41,Breanna Shaw,Europe,41184.75,38
+336,Erik Parks,Europe,40864.24,39
+455,Susan Harris,Europe,40547.15,40
+734,Gregory Hunter,Europe,40106.17,41
+508,Gary Berry,Europe,39750.04,42
+793,Laura Richards,Europe,39611.32,43
+117,Shelley Woods,Europe,38746.55,44
+436,Robert Larsen,Europe,37815.05,45
+484,Austin Pratt,Europe,37371.09,46
+656,Megan Turner,Europe,37338.22,47
+354,Brittney Griffin,Europe,36924.28,48
+667,Julie Hernandez,Europe,36881.07,49
+678,Melissa York,Europe,34387.11,50
+352,Steven Moore,Europe,34207.39,51
+731,Richard Gonzalez,Europe,34143.31,52
+42,Melissa Jones,Europe,33862.83,53
+657,Jeffrey White,Europe,32939.92,54
+39,Kristen Mitchell,Europe,32876.82,55
+129,Brenda Smith,Europe,32587.61,56
+43,Ashley Riley,Europe,32495.15,57
+215,Ryan Morales,Europe,31613.28,58
+554,Mark Hill,Europe,31474.13,59
+788,Theresa Espinoza,Europe,31466.32,60
+382,Lisa Adams,Europe,31129.39,61
+378,Christine Estrada,Europe,30782.44,62
+386,Ariel Hodge,Europe,30755.06,63
+170,Donald Levy,Europe,30596.71,64
+655,Bill Mcfarland,Europe,29271.24,65
+224,Steven Spencer,Europe,29260.56,66
+76,Reginald Hernandez,Europe,28583.67,67
+580,Paul Johnson,Europe,28319.56,68
+93,Karen Decker,Europe,27923.38,69
+768,Kelli Warren,Europe,27892.17,70
+417,Jonathan Dixon,Europe,27759.97,71
+233,Debbie Henderson,Europe,27368.0,72
+556,Katherine Ayers,Europe,27214.18,73
+426,Jason Ramirez,Europe,26970.45,74
+680,Mark Anderson,Europe,26295.89,75
+293,Brent Dougherty,Europe,25670.71,76
+747,Sheila Johnson,Europe,24857.09,77
+173,Daniel Hall,Europe,24696.25,78
+478,Jacqueline Martin,Europe,23577.12,79
+692,Erik Knight,Europe,23219.93,80
+540,Sara Fernandez,Europe,22350.84,81
+63,Darlene Ross,Europe,21959.31,82
+620,Timothy Alvarado,Europe,21132.4,83
+602,Elaine Nelson,Europe,20660.13,84
+225,Denise Morris,Europe,20576.86,85
+337,Christina Robinson,Europe,20298.93,86
+550,Raven Klein,Europe,19795.36,87
+677,Eugene Walker,Europe,19771.02,88
+685,Kim Tucker,Europe,18843.89,89
+561,Lisa Turner,Europe,18566.34,90
+171,Angela Davis,Europe,18527.35,91
+322,Robert Love,Europe,17745.19,92
+263,Ryan Carney,Europe,17675.89,93
+757,Lisa Woods,Europe,17594.9,94
+301,Unknown Customer,Europe,17511.8,95
+509,Felicia Thompson,Europe,17449.65,96
+229,Cameron Davis,Europe,17126.1,97
+737,Michelle Olson,Europe,15785.39,98
+342,Erin Love,Europe,14587.29,99
+438,Stephen Newton,Europe,13305.51,100
+114,Jeremy White,Europe,12981.19,101
+514,Paul White,Europe,12277.78,102
+748,Gregory Bray,Europe,11392.37,103
+97,Miguel Obrien,Europe,10787.25,104
+223,Marie Jones,Europe,10208.38,105
+363,Mark Miller,Europe,9678.04,106
+11,Jessica Martin,Europe,8951.17,107
+609,Morgan Phelps,Europe,7976.11,108
+670,Adam Cortez,Europe,6499.31,109
+184,Vanessa Fernandez,Europe,5710.56,110
+58,Eric Spears,Europe,5358.36,111
+387,Heather Knight,Europe,4621.15,112
+100,Melissa Burke,Europe,4046.0,113
+450,Stephanie Murphy,Europe,3944.42,114
+566,Ashley Thompson,Europe,3857.23,115
+188,Bradley Logan,Europe,3305.7,116
+746,Raymond Christensen,Middle East,109225.74,1
+454,Mary Smith,Middle East,99381.84,2
+664,Cody Bonilla,Middle East,70809.33,3
+249,Shelby Lynch,Middle East,69747.33,4
+761,Kim Griffin,Middle East,68609.6,5
+468,Kristen Leon,Middle East,68320.87,6
+66,Jonathan Fletcher,Middle East,67957.32,7
+210,David Jimenez,Middle East,67493.93,8
+376,Charles Meyers,Middle East,65180.97,9
+3,Jeffery Wagner,Middle East,59137.4,10
+36,Andrea Williams,Middle East,58626.31,11
+12,Gabrielle Cameron,Middle East,58545.04,12
+674,Erica Sloan,Middle East,57227.66,13
+284,Meghan King,Middle East,57121.13,14
+208,Erika Watkins,Middle East,54666.69,15
+631,Travis Underwood,Middle East,53760.53,16
+453,Ashlee Washington,Middle East,53690.75,17
+251,Candice Smith,Middle East,53629.02,18
+260,Michael Norman,Middle East,51076.21,19
+8,Barbara Bush,Middle East,50305.93,20
+579,Donald Johnson,Middle East,49709.97,21
+303,Benjamin Reeves,Middle East,49638.77,22
+549,Michelle Wells,Middle East,49106.02,23
+57,Michael Castro,Middle East,48970.9,24
+705,Dana Johns,Middle East,47718.36,25
+501,Jason Gates,Middle East,47350.94,26
+126,Charles Martin,Middle East,47343.01,27
+157,Monica Harvey,Middle East,46272.15,28
+548,Jeremy Brown,Middle East,46015.0,29
+314,Steve Patel,Middle East,45396.8,30
+492,Diane Sweeney,Middle East,44841.45,31
+458,Cody Lewis,Middle East,44280.72,32
+192,Kenneth Wagner,Middle East,43591.46,33
+158,Jesse Little,Middle East,42705.86,34
+644,Justin Boone,Middle East,42464.36,35
+496,Joel Green,Middle East,42372.9,36
+551,Gerald Joyce,Middle East,42199.35,37
+55,Brandi Hernandez,Middle East,41389.59,38
+610,Melissa Zamora,Middle East,40891.5,39
+568,William Reid,Middle East,40455.32,40
+287,Brandon May,Middle East,39248.29,41
+689,Desiree Hernandez,Middle East,38834.82,42
+625,Sergio Wilson,Middle East,38269.04,43
+547,Colin Barnett,Middle East,37542.24,44
+729,Zachary Hall,Middle East,36625.49,45
+25,David Keller,Middle East,35459.57,46
+163,Julie Williams,Middle East,35027.0,47
+794,Kristen Alvarez,Middle East,35024.17,48
+70,Amy Smith,Middle East,34849.91,49
+226,Lisa Monroe,Middle East,34608.29,50
+697,Rachel Miller,Middle East,34277.06,51
+313,Ann Bolton,Middle East,33447.79,52
+183,Jesse Schroeder,Middle East,33221.12,53
+708,Gary Jennings,Middle East,33124.46,54
+555,Alexandra Barnes,Middle East,32323.7,55
+449,Nicole Davis,Middle East,31588.96,56
+503,Stephanie Bond,Middle East,31578.78,57
+516,Craig Sandoval,Middle East,30444.23,58
+341,James Herrera,Middle East,30359.45,59
+15,Jose Richards,Middle East,30338.23,60
+653,Willie Bennett,Middle East,30143.66,61
+755,Robert Taylor,Middle East,30064.16,62
+552,Vanessa Graham,Middle East,29697.25,63
+344,Steven Roman,Middle East,29663.88,64
+440,Amy Fritz,Middle East,29661.83,65
+693,Michael Robinson,Middle East,28581.45,66
+305,Brittney Romero,Middle East,27862.56,67
+497,Mark Chavez,Middle East,27558.56,68
+641,James Weber,Middle East,27338.45,69
+302,Sheila Fischer,Middle East,27102.06,70
+583,Stacey Lam,Middle East,26764.92,71
+60,Joseph Cobb,Middle East,26588.96,72
+659,Stephanie Montgomery,Middle East,26158.67,73
+288,Christine Johnson,Middle East,26046.81,74
+202,Heather Johnson,Middle East,25954.94,75
+6,Michael Cooper,Middle East,25552.41,76
+276,Kevin Moore,Middle East,25461.21,77
+490,Laura Hernandez,Middle East,25442.16,78
+787,Charles Harrison,Middle East,25350.89,79
+390,Francisco Allen,Middle East,25220.9,80
+743,Christine Moore,Middle East,23600.52,81
+593,Jessica Perez,Middle East,23218.21,82
+324,Unknown Customer,Middle East,22900.15,83
+228,Paul Schroeder,Middle East,22676.26,84
+134,Tara Powell,Middle East,22081.96,85
+124,Michele Jones,Middle East,21782.54,86
+464,Robert Parks,Middle East,21749.83,87
+317,Keith Berry,Middle East,21004.91,88
+298,Melanie Jordan,Middle East,20936.21,89
+56,Laura Valencia,Middle East,20678.39,90
+115,Angela Terry,Middle East,20523.82,91
+274,Shannon Roach,Middle East,20324.76,92
+409,James Osborn,Middle East,19552.18,93
+730,Theresa Miller,Middle East,19497.03,94
+10,Mitchell Clark,Middle East,19390.92,95
+216,Matthew Cook,Middle East,19160.0,96
+89,Todd Price,Middle East,17530.03,97
+286,Rachel Morgan,Middle East,17303.5,98
+616,Kimberly Carr,Middle East,16854.96,99
+442,Kimberly Youngω,Middle East,15748.46,100
+652,Kelly Thompson,Middle East,15066.47,101
+335,Jose Ward,Middle East,14948.78,102
+196,Christopher Miller,Middle East,14802.91,103
+422,Andrew Cooper,Middle East,14688.89,104
+177,Eric Perry,Middle East,14559.04,105
+790,Unknown Customer,Middle East,14468.64,106
+80,Lisa Mcclain,Middle East,14268.0,107
+507,David Stein,Middle East,14026.95,108
+309,George Fuller,Middle East,13812.06,109
+5,Roberto Ramirez,Middle East,13765.58,110
+511,Nicole Mendoza,Middle East,13018.48,111
+212,Andrew Morse,Middle East,12964.66,112
+696,Amy Thompson,Middle East,12573.96,113
+59,Nicole Johnson,Middle East,12441.11,114
+611,Unknown Customer,Middle East,12378.61,115
+581,Gina Little,Middle East,12232.58,116
+281,Erin Cooper,Middle East,11040.33,117
+573,Unknown Customer,Middle East,10309.14,118
+291,Jessica Valencia,Middle East,10238.99,119
+724,Adam Davis,Middle East,9802.04,120
+190,Charles Miller,Middle East,9208.12,121
+479,Unknown Customer,Middle East,8570.53,122
+110,Elizabeth Wood,Middle East,7098.02,123
+121,Brian Choi,Middle East,6291.32,124
+434,Leonard Hayes™,Middle East,4430.6,125
+649,Paul Frye,Middle East,3344.05,126
+338,Vanessa Brooks,Middle East,2646.06,127
+403,Kevin Patton,Middle East,625.14,128
+262,Tyler Jimenez,Middle East,345.26,129
+394,Tracy Kelly,North America,115071.81,1
+32,Donna Gomez,North America,86858.69,2
+707,Douglas Aguilar,North America,74844.02,3
+392,Brian Kim,North America,74120.59,4
+271,Debra Wright,North America,73714.01,5
+466,John Newman,North America,71778.36,6
+744,Elizabeth Austin,North America,69692.64,7
+92,Jorge Murphy,North America,69391.02,8
+630,Cynthia Marsh,North America,68695.43,9
+328,Ashley Rodriguez,North America,67576.45,10
+145,Molly Pollard,North America,67050.11,11
+353,Christina Mayer,North America,64266.57,12
+128,Bill Reynolds,North America,63969.57,13
+135,Robert Lopez,North America,62728.3,14
+119,Angela Butler,North America,60217.85,15
+716,Jonathan Smith,North America,59071.07,16
+120,Rebekah Evans,North America,58668.19,17
+148,Wayne Lawrence,North America,57680.8,18
+360,Heather Russell,North America,55672.54,19
+189,Yolanda Boone,North America,54485.42,20
+570,Justin Hughes中,North America,54277.5,21
+405,Meagan James,North America,53950.81,22
+621,Patricia Salazar,North America,53874.06,23
+292,Daniel Allen,North America,49554.23,24
+622,Tyler Martin,North America,48799.34,25
+645,Dustin Santiago,North America,47847.87,26
+247,Justin Gallegos,North America,47819.11,27
+528,Jacqueline Berry,North America,47770.92,28
+506,Lisa Johnson,North America,47013.98,29
+362,Anna Faulkner,North America,46825.25,30
+398,Curtis Miller,North America,45092.56,31
+601,Johnny Miles,North America,44147.76,32
+401,Rachel Stein,North America,43316.58,33
+410,Jeanette Gonzales,North America,43032.04,34
+461,Lawrence Ibarra,North America,42550.34,35
+690,Mercedes Anderson,North America,42278.0,36
+186,Joseph Martinez,North America,40218.81,37
+569,Sean Horne,North America,39574.13,38
+515,Unknown Customer,North America,39408.64,39
+174,Cynthia Marshall,North America,39168.86,40
+709,Jerry Cruz,North America,38593.15,41
+20,Shawn Mckay,North America,38519.7,42
+651,Janet Holland,North America,38394.68,43
+149,Alicia Bryant,North America,37371.04,44
+636,Savannah Roberson,North America,37368.71,45
+647,Michael Chavez,North America,37208.99,46
+425,Christina Gonzalez,North America,37108.17,47
+104,Steven Petersen,North America,36630.79,48
+661,Manuel Moon,North America,36625.81,49
+65,Jessica Edwards,North America,36105.54,50
+627,Diamond Bryant,North America,35578.9,51
+395,Donna Miller,North America,34822.52,52
+138,Alexander Russell,North America,33936.65,53
+650,Julia Harris,North America,33217.74,54
+475,Amanda Myers,North America,32552.05,55
+781,Robert Castaneda,North America,32483.98,56
+463,Chelsey Martin,North America,31494.62,57
+546,Steven Perez,North America,31316.57,58
+278,Angela Wood,North America,31306.56,59
+161,Daniel James,North America,30783.61,60
+444,Amanda Carlson,North America,30153.95,61
+427,Amanda Diaz,North America,29564.92,62
+535,Debra Mcdaniel,North America,28210.99,63
+699,Adam Macias,North America,27991.53,64
+586,David Becker,North America,27536.37,65
+599,Kelsey Dean,North America,26103.64,66
+64,Gregory Estes,North America,26032.6,67
+736,Timothy Sanchez,North America,24933.88,68
+147,Laura Pearson,North America,24467.12,69
+182,David Cunningham,North America,24294.64,70
+778,Nicole Kim,North America,24165.26,71
+105,Joshua Hayes,North America,23467.57,72
+700,Juan Hernandez,North America,22450.05,73
+90,Samantha Hooper,North America,22299.35,74
+558,Todd Lynch,North America,22064.27,75
+94,Brett Crane,North America,22028.55,76
+306,Thomas Smith,North America,21320.86,77
+784,David Gonzales,North America,21143.67,78
+125,Ronald Stephens,North America,20807.31,79
+572,Evelyn Wells,North America,20190.84,80
+21,Unknown Customer,North America,19266.91,81
+127,Holly Bender,North America,19038.71,82
+762,Crystal Thomas,North America,18416.92,83
+151,Melissa Phelps,North America,18163.65,84
+391,Martin Campos,North America,17297.49,85
+559,Charlotte Steele,North America,16165.32,86
+753,Gina Olsen,North America,15744.32,87
+628,Martin Saunders,North America,15459.38,88
+339,Elizabeth Robinson,North America,14518.48,89
+720,Timothy Wood,North America,14418.13,90
+745,Leslie Villanueva,North America,13450.5,91
+370,Tina Harrison,North America,12685.23,92
+357,Kevin Thomas,North America,12641.33,93
+268,Kimberly Johnsonğ,North America,12208.97,94
+676,Amy Miller,North America,11941.37,95
+83,Joseph Flores,North America,11594.99,96
+79,Elizabeth Travis,North America,10281.48,97
+244,Dylan Kim,North America,9782.64,98
+722,Julie Griffin,North America,9267.8,99
+459,Sean Smith,North America,9003.32,100
+489,Micheal Bonilla,North America,7402.82,101
+715,Katie Kent,North America,6954.78,102
+472,Jose Williams,North America,6531.2,103
+767,Garrett Garcia,North America,4981.03,104
+371,Robert Hart,North America,4683.94,105
+480,Alexandria Baker,North America,4204.34,106
+325,Audrey Nichols,North America,3646.0,107
+738,Jeffrey Haynes,North America,3209.18,108
+756,Anna Bradley,North America,2537.1,109
+563,Joseph Butler,North America,2126.27,110
+640,Kaitlyn Evansñ,North America,755.76,111
+62,Andrew Lee,North America,448.64,112
+168,Kristin Walter,South America,87242.87,1
+432,Devin Reyes,South America,79611.33,2
+443,Gabriel Taylor,South America,78668.26,3
+193,Diana Rich,South America,70571.56,4
+383,Annette Branch,South America,70166.86,5
+776,Alan Weeks,South America,69240.71,6
+377,Jesse Mann,South America,61972.11,7
+626,Angela Smith,South America,61202.71,8
+2,Erica Mcclain,South America,61033.41,9
+498,Kayla Rodriguez,South America,60709.37,10
+541,Philip Dunn,South America,60104.44,11
+577,Mark Hill,South America,58395.17,12
+562,Corey Melton,South America,56636.05,13
+526,Debra Thompson,South America,55853.11,14
+512,Dawn Robles,South America,55573.93,15
+424,Lauren Soto✓,South America,55139.32,16
+199,Michael Lane,South America,54962.14,17
+248,Christina Bullock,South America,54464.83,18
+769,Diana Mcclure,South America,53194.85,19
+102,Daniel Yu,South America,53047.2,20
+701,Robert Rivera,South America,51134.06,21
+465,Karen Lawrence,South America,50987.04,22
+749,Alexander Clark,South America,48429.54,23
+252,Aaron Gomez,South America,47535.48,24
+230,Melissa Brandt,South America,47269.77,25
+525,Kevin Taylor,South America,45984.71,26
+1,Danielle Johnson,South America,45665.29,27
+101,Mitchell Hunterğ,South America,45263.81,28
+374,Steven Oconnor,South America,43512.99,29
+332,Penny Wilcoxñ,South America,43279.59,30
+783,Edwin Booker,South America,43186.97,31
+500,Melissa Davis,South America,42617.24,32
+308,Diana Stanton,South America,41697.76,33
+624,Christian Wallace,South America,41233.73,34
+399,Ricky Johnson,South America,41157.15,35
+349,Nancy Anderson,South America,40119.12,36
+728,Melissa Galvan,South America,40043.14,37
+782,Unknown Customer,South America,37583.72,38
+143,Mary Carpenter,South America,36809.41,39
+347,Justin White,South America,36563.86,40
+367,David Key,South America,36506.47,41
+176,Derek Chavez,South America,35245.53,42
+571,Erica Adams,South America,34565.16,43
+595,Jessica Carlson,South America,34475.97,44
+411,Robert Porter,South America,34254.95,45
+533,Samuel Barnes,South America,33977.49,46
+130,April Ramos,South America,33894.33,47
+732,Jessica Hansen,South America,33204.04,48
+482,Emily Wilson,South America,32985.92,49
+542,Christopher Colon,South America,32937.84,50
+419,Dan Perry,South America,32728.23,51
+530,Julie Young,South America,32637.69,52
+29,Jean Brown,South America,31781.51,53
+400,Michelle Smith,South America,31240.45,54
+331,Krystal Bradley,South America,31048.0,55
+637,Lisa Garcia,South America,30656.28,56
+704,Gabriel Nielsen,South America,30296.93,57
+481,Brian Villarreal,South America,29386.78,58
+491,Michael Franco,South America,29356.04,59
+797,Tina Kramer,South America,27619.09,60
+544,Kristen Ruiz,South America,27538.96,61
+612,Lisa White,South America,27065.67,62
+721,Becky Schroeder,South America,27057.71,63
+796,Michael Moore,South America,26807.93,64
+402,Joseph Adams,South America,26479.95,65
+329,Troy Mays,South America,25799.29,66
+67,Elizabeth Rivera,South America,25236.34,67
+633,James Morgan,South America,25009.59,68
+113,Joshua Lawrence,South America,24714.44,69
+22,Amber Osborne,South America,23776.32,70
+608,Jonathan Hall,South America,23719.22,71
+662,Unknown Customer,South America,23701.62,72
+24,Stacey Miller,South America,23005.2,73
+574,Stephen Robinson,South America,22727.95,74
+269,Patrick Bradley,South America,22183.12,75
+445,Unknown Customer,South America,21930.17,76
+239,Amanda Collins,South America,21684.97,77
+187,Kimberly Palmer,South America,21513.44,78
+73,Christine Davis,South America,20724.6,79
+643,Brandi Bender,South America,20509.29,80
+206,Karen Williams,South America,20285.16,81
+33,Emily Joyce,South America,19782.81,82
+359,Tyler Compton,South America,19773.25,83
+118,Crystal Brown,South America,19710.95,84
+589,Shannon Clark,South America,19574.61,85
+505,Nathan Mccoy,South America,18904.76,86
+605,Ethan Kelley,South America,17706.96,87
+763,Richard Meadows,South America,17278.28,88
+527,Nicholas Gross,South America,17070.11,89
+250,David Allen,South America,16120.57,90
+785,Jeff Fisher,South America,15961.52,91
+40,Jeff Brown,South America,15235.83,92
+388,Juan Daniels,South America,15144.97,93
+742,Jill Salas,South America,14501.91,94
+437,Kathleen Carter,South America,13679.29,95
+180,Tammy Rush™,South America,13577.48,96
+44,Alexandra Donovan,South America,12208.46,97
+165,John Campos,South America,11611.11,98
+17,Erin Carlson,South America,11170.33,99
+355,Scott Fernandez,South America,11134.74,100
+299,Brandon Williams,South America,11085.11,101
+672,Patrick Short,South America,9709.49,102
+800,Unknown Customer,South America,7878.74,103
+504,Laura Martinez,South America,6924.66,104
+343,Brian Anderson,South America,5454.72,105
+470,David Valenciañ,South America,4306.08,106
+717,Adrian Pena,South America,4083.33,107
+290,Scott Washington,South America,2160.03,108
+407,Raymond Flores,South America,1054.32,109
+154,Cynthia Brennan,South America,261.8,110
+86,Unknown Customer,Unknown,67625.27,1
+582,Howard Davis✓,Unknown,61190.15,2
+518,Joel Stewart,Unknown,47647.6,3
+51,Cynthia Baker,Unknown,37709.06,4
+702,Jason Martin,Unknown,32607.7,5
+214,George Meza,Unknown,30263.16,6
+175,Brandon Johnson,Unknown,23124.23,7
+107,Lauren Peterson,Unknown,16663.62,8
+300,Paul Cole,Unknown,14340.2,9
+277,David Harris,Unknown,14191.39,10
+273,Justin Hendricks,Unknown,12446.93,11
+687,Charles Jones,Unknown,9961.1,12
+486,Emily Williams,Unknown,8210.12,13
