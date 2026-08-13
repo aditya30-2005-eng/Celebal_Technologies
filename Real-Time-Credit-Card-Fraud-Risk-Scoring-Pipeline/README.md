@@ -1,147 +1,328 @@
-
 # Real-Time Credit Card Fraud Risk Scoring Pipeline
 
-This project builds a simple Databricks pipeline for detecting risky credit-card transactions. It uses the medallion design: Bronze for raw ingest, Silver for cleaning and validation, and Gold for fraud scoring and dashboard output.
+A real-time credit card fraud risk scoring pipeline built using **Databricks, PySpark, Delta Lake, Structured Streaming, Auto Loader, and the Medallion Architecture**.
 
-This folder is ready for review and local checks, but the actual Databricks run still needs a real cluster and workspace. The code is written to be honest about that.
+The pipeline processes transaction data through **Bronze, Silver, and Gold layers**, performs data quality checks and enrichment, generates explainable fraud-risk scores, and produces dashboard-ready outputs for identifying high-risk transactions.
 
-Business problem
-----------------
-Banks and payment platforms need to spot suspicious transactions quickly. Large payments, sudden location changes, high transaction speed, odd hours, and unusual merchant patterns can all be signs of fraud. This project shows one practical way to process those transactions in a pipeline and score risk.
+---
 
-Objective
----------
-The project aims to:
-- ingest raw transaction data into Bronze
-- clean and validate the data in Silver
-- build fraud features and score risk in Gold
-- create dashboard-friendly outputs and alert-ready records
-- support streaming and incremental processing in a realistic Databricks setup
+## Business Problem
 
-Architecture
-------------
+Banks and payment platforms need to identify suspicious credit-card transactions quickly and reliably.
+
+Fraudulent transactions may be associated with:
+
+* Unusually high transaction amounts
+* Rapid transaction velocity
+* Sudden location changes
+* Transactions during unusual hours
+* Unusual customer spending behavior
+* Abnormal merchant activity
+
+This project demonstrates a scalable data engineering approach for processing transaction data and generating transparent fraud-risk scores.
+
+---
+
+## Project Objectives
+
+The pipeline is designed to:
+
+* Ingest transaction data into a Bronze layer
+* Clean, validate, and enrich data in the Silver layer
+* Build transaction and customer behavior features
+* Apply explainable fraud detection rules
+* Generate risk scores from 0–100
+* Classify transactions into LOW, MEDIUM, and HIGH risk
+* Identify high-risk transactions for alerting
+* Support near-real-time streaming processing
+* Handle late-arriving transactions
+* Support incremental processing using Delta Lake
+* Provide dashboard-ready analytical outputs
+
+---
+
+## Architecture
 
 ```mermaid
 flowchart LR
-   A[CSV / Source Data] --> B[Bronze: raw ingestion]
-   B --> C[Silver: validation, dedupe, enrichment]
-   C --> D[Gold: feature engineering]
-   D --> E[Fraud risk scoring]
-   E --> F[High-risk output]
-   E --> G[Dashboards / SQL alerts]
-   C --> H[Late-arriving records]
-   C --> I[Customer behavior state]
+    A[Transaction Source] --> B[Bronze Layer]
+    B --> C[Silver Layer]
+    C --> D[Gold Layer]
+    D --> E[Feature Engineering]
+    E --> F[Fraud Risk Scoring]
+    F --> G[High-Risk Alerts]
+    F --> H[Dashboard & Analytics]
+
+    C --> I[Data Quality]
+    C --> J[Customer Profile Enrichment]
+    C --> K[Late-Arriving Data]
+
+    D --> L[Customer Behavior State]
 ```
 
-Medallion architecture
-----------------------
-- Bronze: raw, append-only ledger of transaction files with ingestion metadata and source file tracking
-- Silver: valid transaction data, data quality flags, rejected records, standardization, duplicates, and profile enrichment
-- Gold: transaction-level features, customer and card behavior, scoring, and high-risk outputs
+---
 
-Bronze
-------
-- Reads raw transaction CSV files from a configurable input path
-- Adds ingestion metadata such as `ingest_timestamp`, `source_file`, and `raw_record_hash`
-- Uses PySpark Structured Streaming with Delta as the sink
-- Writes into `fraud_db.bronze_transactions`
+## Medallion Architecture
 
-Silver
-------
-- Validates required fields and business rules
-- Parses timestamps and amounts, rejects invalid records into a separate table
-- Standardizes categories and locations
-- Joins to `customer_profile.csv`
-- Tracks data quality indicators and pass/fail status
-- Stores valid records in `fraud_db.silver_transactions`
-- Stores invalid rows in `fraud_db.silver_rejected_transactions`
+### Bronze Layer
 
-Gold
-----
-- Builds persistent historical features such as rolling counts, amount deviations, merchant frequency, and previous-transaction lookup
-- Maintains customer/card behavior state in Delta tables across micro-batches
-- Computes a transparent risk score from explainable rules
-- Produces a rule-based transaction output table and a high-risk alert table
+The Bronze layer stores raw transaction data with ingestion metadata.
 
-Fraud scoring
--------------
-The scoring model is deterministic and explainable:
-- high amount indicator
-- velocity indicator
-- location hop indicator
-- unusual hour indicator
-- amount deviation in customer history
-- merchant frequency anomaly
+Responsibilities:
 
-The score is clamped to 0-100 and mapped as:
-- 0-30: LOW
-- 31-70: MEDIUM
-- 71-100: HIGH
+* Raw transaction ingestion
+* Append-oriented storage
+* Source file tracking
+* Ingestion timestamps
+* Record hashing
+* Structured Streaming ingestion
+* Delta Lake storage
 
-Streaming
----------
-The project uses PySpark Structured Streaming with Delta checkpoints and `foreachBatch` processing to support incremental updates. For a sample-data setup without Kafka, a realistic streaming simulation is created by reading the directory of incoming CSVs with Auto Loader. This is near-real-time micro-batch processing, not a false claim of production Kafka streaming.
+Main table:
 
-Late-arriving data
-------------------
-Late-arriving transactions are handled with `withWatermark` and explicit routing to a late-arrivals table when they fall outside the acceptable lateness window. This avoids corrupting historical windows without silently dropping data.
+```text
+fraud_db.bronze_transactions
+```
 
-Incremental processing
-----------------------
-Incremental processing is supported through Delta Change Data Feed (CDF) helpers and checkpoints. CDF is optional for this project and is used only where it provides value. It is not required for a static sample dataset, so the project keeps implementation realistic and focused.
+---
 
-Data quality
-------------
-The pipeline explicitly tracks:
-- mandatory field checks
-- duplicate detection
-- invalid amounts
-- malformed timestamps
-- invalid categorical values
-- rejected record counts
-- quality indicator columns
+### Silver Layer
 
-Dashboard
----------
-The project includes SQL views for:
-- total transactions
-- total transaction amount
-- fraud transactions
-- fraud percentage
-- risk distribution
-- trend over time
-- risky merchants and locations
-- high-risk transaction views
+The Silver layer cleans, validates, standardizes, and enriches the Bronze data.
 
-Technology stack
-----------------
-- Databricks
-- Apache Spark / PySpark
-- Delta Lake
-- Structured Streaming
-- Auto Loader
-- SQL / Delta tables
-- Python + pytest for validation
+Responsibilities:
 
-Dataset description
--------------------
-The repo includes:
-- `data/transaction.csv`: transaction stream sample
-- `data/customer_profile.csv`: customer baseline profile data with average spend and preferred category
+* Required-field validation
+* Timestamp parsing
+* Amount validation
+* Duplicate detection
+* Category normalization
+* Location normalization
+* Data quality indicators
+* Customer profile enrichment
+* Invalid record separation
 
-Folder structure
-----------------
+Main tables:
+
+```text
+fraud_db.silver_transactions
+fraud_db.silver_rejected_transactions
+```
+
+---
+
+### Gold Layer
+
+The Gold layer creates analytical features and fraud-risk outputs.
+
+Responsibilities:
+
+* Transaction-level feature engineering
+* Customer behavior analysis
+* Card behavior state
+* Historical transaction features
+* Rolling transaction counts
+* Amount deviation analysis
+* Merchant frequency analysis
+* Fraud-risk scoring
+* High-risk transaction identification
+
+Main tables:
+
+```text
+fraud_db.gold_transaction_features
+fraud_db.gold_customer_behavior_state
+fraud_db.gold_high_risk_transactions
+```
+
+---
+
+# Fraud Detection & Risk Scoring
+
+The project uses a deterministic and explainable rule-based scoring approach.
+
+The scoring engine considers:
+
+1. **High Amount Indicator**
+2. **Transaction Velocity Indicator**
+3. **Location Hop Indicator**
+4. **Unusual Hour Indicator**
+5. **Customer Amount Deviation**
+6. **Merchant Frequency Anomaly**
+
+The final risk score is constrained between **0 and 100**.
+
+### Risk Classification
+
+| Risk Score | Risk Level |
+| ---------- | ---------- |
+| 0–30       | LOW        |
+| 31–70      | MEDIUM     |
+| 71–100     | HIGH       |
+
+The approach is intentionally explainable so that each high-risk transaction can be associated with specific fraud indicators.
+
+---
+
+# Streaming Processing
+
+The pipeline uses **PySpark Structured Streaming** with Delta Lake checkpoints and `foreachBatch` processing.
+
+For the sample-data environment, transaction files are processed using **Databricks Auto Loader** to simulate continuous incoming data.
+
+The implementation supports:
+
+* Incremental file ingestion
+* Micro-batch processing
+* Checkpointing
+* Delta Lake sinks
+* Stateful processing
+* Incremental feature updates
+
+This provides a realistic near-real-time streaming architecture without falsely claiming a production Kafka deployment.
+
+---
+
+# Late-Arriving Data
+
+The pipeline includes dedicated handling for late-arriving transactions.
+
+The implementation uses:
+
+* Structured Streaming watermarks
+* Acceptable lateness windows
+* Explicit late-record routing
+* Delta Lake storage for late-arriving records
+
+Late transactions can be stored separately in:
+
+```text
+fraud_db.silver_late_arrivals
+```
+
+This approach helps preserve historical processing consistency while maintaining visibility into delayed data.
+
+---
+
+# Incremental Processing
+
+The project includes support for incremental processing using **Delta Change Data Feed (CDF)** and streaming checkpoints.
+
+Incremental processing helps avoid unnecessarily processing the entire dataset for every update.
+
+The project also keeps CDF optional so that the pipeline remains practical for a sample-data environment.
+
+---
+
+# Data Quality
+
+Data quality checks are applied during the Silver transformation stage.
+
+The pipeline checks for:
+
+* Missing mandatory fields
+* Invalid transaction amounts
+* Malformed timestamps
+* Duplicate transactions
+* Invalid categories
+* Invalid locations
+* Rejected records
+* Data quality indicators
+
+Invalid records are separated from valid transaction records for auditability.
+
+---
+
+# Customer Enrichment
+
+Transaction data is enriched using customer profile information.
+
+The customer profile dataset provides baseline information such as:
+
+* Average spending behavior
+* Preferred transaction category
+* Customer-level attributes
+
+This enrichment enables the Gold layer to compare current transactions against historical customer behavior.
+
+---
+
+# Dashboard & Analytics
+
+The project includes SQL views designed for fraud monitoring and dashboard visualization.
+
+Dashboard-ready metrics include:
+
+* Total transactions
+* Total transaction amount
+* Fraud/high-risk transactions
+* Fraud percentage
+* Risk-level distribution
+* Fraud trends over time
+* High-risk merchants
+* High-risk locations
+* Recent high-risk transactions
+* Transaction risk scores
+
+The dashboard outputs are generated from optimized Gold-layer data and SQL views.
+
+---
+
+# Technology Stack
+
+| Technology           | Purpose                                  |
+| -------------------- | ---------------------------------------- |
+| Databricks           | Data engineering and processing platform |
+| Apache Spark         | Distributed data processing              |
+| PySpark              | Data transformation and streaming        |
+| Delta Lake           | Reliable transactional data storage      |
+| Structured Streaming | Near-real-time processing                |
+| Auto Loader          | Incremental file ingestion               |
+| SQL                  | Analytics and dashboard views            |
+| Python               | Pipeline logic and testing               |
+| Pytest               | Unit testing and validation              |
+
+---
+
+# Dataset
+
+The repository contains sample datasets for demonstrating the pipeline.
+
+### Transaction Dataset
+
+```text
+data/transaction.csv
+```
+
+Contains sample credit-card transaction records used as the streaming input.
+
+### Customer Profile Dataset
+
+```text
+data/customer_profile.csv
+```
+
+Contains customer baseline information used for transaction enrichment and behavioral comparison.
+
+---
+
+# Project Structure
+
 ```text
 Real-Time-Credit-Card-Fraud-Risk-Scoring-Pipeline/
+│
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
+│
 ├── data/
 │   ├── transaction.csv
 │   └── customer_profile.csv
+│
 ├── docs/
 │   ├── architecture.md
 │   └── fraud_rules.md
+│
 ├── notebooks/
 │   ├── 01_bronze_ingestion.py
 │   ├── 02_silver_transformation.py
@@ -149,88 +330,232 @@ Real-Time-Credit-Card-Fraud-Risk-Scoring-Pipeline/
 │   ├── 04_late_arriving_data.py
 │   ├── 05_incremental_processing.py
 │   └── 06_dashboard_views.sql
+│
 ├── sql/
 │   ├── create_database.sql
 │   ├── gold_views.sql
 │   └── validation_queries.sql
+│
 ├── src/
 │   ├── __init__.py
 │   ├── config.py
 │   └── fraud_rules.py
-├── tests/
-│   └── test_fraud_rules.py
-└── .
+│
+└── tests/
+    └── test_fraud_rules.py
 ```
 
-Databricks setup
-----------------
-1. Create or attach to a Databricks cluster with Spark and Delta enabled.
-2. Upload the CSV files to a workspace-accessible path such as `dbfs:/FileStore/rtcc_transactions`.
-3. Create the database and placeholder tables using `sql/create_database.sql`.
-4. Run notebooks in this order:
-   1. `notebooks/01_bronze_ingestion.py`
-   2. `notebooks/02_silver_transformation.py`
-   3. `notebooks/04_late_arriving_data.py`
-   4. `notebooks/03_gold_fraud_scoring.py`
-   5. `notebooks/05_incremental_processing.py` (optional helper notebook)
-   6. `notebooks/06_dashboard_views.sql`
-5. Validate with `sql/validation_queries.sql`.
+---
 
-Exact execution order
----------------------
-1. `sql/create_database.sql`
-2. `notebooks/01_bronze_ingestion.py`
-3. `notebooks/02_silver_transformation.py`
-4. `notebooks/04_late_arriving_data.py`
-5. `notebooks/03_gold_fraud_scoring.py`
-6. `notebooks/05_incremental_processing.py` (optional)
-7. `notebooks/06_dashboard_views.sql`
+# Databricks Execution
 
-Expected outputs
-----------------
-- `fraud_db.bronze_transactions`
-- `fraud_db.silver_transactions`
-- `fraud_db.silver_rejected_transactions`
-- `fraud_db.silver_late_arrivals`
-- `fraud_db.gold_transaction_features`
-- `fraud_db.gold_customer_behavior_state`
-- `fraud_db.gold_high_risk_transactions`
-- Dashboard views in `fraud_db`
+## Prerequisites
 
-Testing
--------
-Static validation is included in the repository via `pytest` tests for:
-- risk score calculation
-- boundary rules
-- risk level mapping
-- invalid amount handling
-- duplicate handling
-- category and location normalization
+The pipeline is designed to run in a Databricks workspace with:
 
-These tests are local and do not require Databricks. Databricks execution still needs to be validated in the target workspace.
+* Apache Spark
+* Delta Lake
+* PySpark
+* Structured Streaming
+* Auto Loader
 
-Limitations
------------
-- The repository is designed for Databricks execution and cannot claim to have run there from this environment.
-- Streaming datasets, checkpoint behavior, and cloud paths need actual workspace validation.
-- Real-time fraud detection in production would normally include larger datasets, ML models, or more advanced anomaly detection.
+---
 
-Future improvements
--------------------
-- Add Kafka or Event Hubs integration
-- Use feature store and model monitoring
-- Add user-defined alerts and threshold tuning
-- Add backfill and replay support
-- Add notebook parameterization and secret management using Databricks Secrets or Unity Catalog
+## Execution Order
 
-Interview explanation
---------------------
-This project shows a solid understanding of the medallion architecture, streaming ingestion, delta tables, validation, stateful feature engineering, explainable rule-based scoring, and dashboard reporting. The design emphasizes auditability, idempotency, and repeatable pipelines rather than a single monolithic script.
+Run the components in the following order:
 
-Static verification completed locally
-------------------------------------
-- Python syntax checks and tests were run locally where possible.
-- Databricks execution and workspace-specific table creation still require running the notebooks inside the target Databricks workspace.
+### 1. Create Database
 
-# Celebal_Technologies
+```text
+sql/create_database.sql
+```
 
+### 2. Bronze Ingestion
+
+```text
+notebooks/01_bronze_ingestion.py
+```
+
+### 3. Silver Transformation
+
+```text
+notebooks/02_silver_transformation.py
+```
+
+### 4. Late-Arriving Data Handling
+
+```text
+notebooks/04_late_arriving_data.py
+```
+
+### 5. Gold Fraud Scoring
+
+```text
+notebooks/03_gold_fraud_scoring.py
+```
+
+### 6. Incremental Processing
+
+```text
+notebooks/05_incremental_processing.py
+```
+
+This component can be used when incremental/CDF processing is required.
+
+### 7. Dashboard Views
+
+```text
+notebooks/06_dashboard_views.sql
+```
+
+### 8. Validation Queries
+
+```text
+sql/validation_queries.sql
+```
+
+---
+
+# Expected Outputs
+
+The pipeline produces the following main Delta tables:
+
+```text
+fraud_db.bronze_transactions
+
+fraud_db.silver_transactions
+
+fraud_db.silver_rejected_transactions
+
+fraud_db.silver_late_arrivals
+
+fraud_db.gold_transaction_features
+
+fraud_db.gold_customer_behavior_state
+
+fraud_db.gold_high_risk_transactions
+```
+
+Dashboard and analytical views are created in:
+
+```text
+fraud_db
+```
+
+---
+
+# Testing
+
+The repository includes automated Python tests using `pytest`.
+
+The tests cover:
+
+* Risk score calculation
+* Risk score boundaries
+* Risk-level mapping
+* Invalid transaction amounts
+* Duplicate handling
+* Category normalization
+* Location normalization
+* Fraud-rule behavior
+
+Run the tests locally using:
+
+```bash
+python -m pytest -q
+```
+
+---
+
+# Data Engineering Concepts Demonstrated
+
+This project demonstrates practical understanding of:
+
+* Medallion Architecture
+* ETL / ELT pipelines
+* Batch and streaming processing
+* Apache Spark
+* PySpark
+* Delta Lake
+* Structured Streaming
+* Auto Loader
+* Data validation
+* Data quality
+* Data enrichment
+* Feature engineering
+* Stateful processing
+* Incremental processing
+* Change Data Feed
+* Late-arriving data
+* SQL analytics
+* Dashboard data preparation
+* Explainable fraud detection
+* Unit testing
+
+---
+
+# Production Considerations
+
+A production-grade fraud detection system could further integrate:
+
+* Kafka or Azure Event Hubs
+* Machine learning models
+* Feature Store
+* Model monitoring
+* Real-time alerting systems
+* Databricks Unity Catalog
+* Databricks Secrets
+* Advanced data governance
+* CI/CD pipelines
+* Cloud monitoring and observability
+
+---
+
+# Future Improvements
+
+Potential future enhancements include:
+
+* Kafka/Event Hubs integration for live transaction events
+* Machine-learning-based fraud prediction
+* Feature Store integration
+* Model monitoring
+* Configurable fraud thresholds
+* Real-time notification systems
+* Backfill and replay mechanisms
+* Notebook parameterization
+* Unity Catalog governance
+* Databricks Secrets for secure configuration
+* Automated CI/CD deployment
+
+---
+
+# Interview Explanation
+
+This project demonstrates a complete data engineering pipeline for real-time credit-card fraud risk scoring.
+
+The architecture follows the **Medallion pattern**, where raw transaction data is first ingested into the Bronze layer, cleaned and enriched in the Silver layer, and then transformed into analytical features and fraud-risk outputs in the Gold layer.
+
+**PySpark Structured Streaming and Auto Loader** are used for incremental ingestion, while **Delta Lake** provides reliable storage and supports incremental processing.
+
+The fraud engine uses explainable rules based on transaction amount, velocity, location changes, unusual transaction times, customer spending deviations, and merchant behavior.
+
+The final Gold-layer outputs are used to identify high-risk transactions and provide dashboard-ready analytics.
+
+The design focuses on:
+
+* Scalability
+* Explainability
+* Data quality
+* Auditability
+* Incremental processing
+* Reliable Delta-based storage
+* Reusable data engineering components
+
+---
+
+# Project Outcome
+
+The completed pipeline provides an end-to-end demonstration of how transaction data can be transformed from raw input into actionable fraud-risk information.
+
+The project combines **Databricks, PySpark, Delta Lake, Structured Streaming, Auto Loader, SQL, data quality validation, feature engineering, and dashboard analytics** into a single data engineering solution.
