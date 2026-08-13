@@ -1,9 +1,0 @@
-Screenshots:
-
-1. data_loading/ - loading customer_master.csv and customer_incremental.csv in the notebook
-2. data_cleaning/ - null handling and duplicate removal output
-3. scd1/ - Delta table created and merge operation output
-4. scd2/ - final Delta table after merge (update + insert)
-5. validation/ - row counts before/after merge, updated/inserted counts, duplicate count
-6. final_output/ - merged_customers.csv preview and summary
-
