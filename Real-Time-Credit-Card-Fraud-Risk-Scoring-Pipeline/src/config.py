@@ -5,8 +5,8 @@ from dataclasses import dataclass
 
 @dataclass
 class PipelineConfig:
-    input_path: str = "dbfs:/FileStore/rtcc_transactions"
-    checkpoint_path: str = "/tmp/rtcc/checkpoints"
+    input_path: str = "/Volumes/workspace/fraud_db/credit_fraud_data"
+    checkpoint_path: str = "/Volumes/workspace/fraud_db/credit_fraud_data/checkpoints"
     bronze_table: str = "fraud_db.bronze_transactions"
     silver_table: str = "fraud_db.silver_transactions"
     silver_rejected_table: str = "fraud_db.silver_rejected_transactions"
@@ -14,8 +14,8 @@ class PipelineConfig:
     gold_alerts_table: str = "fraud_db.gold_high_risk_transactions"
     customer_state_table: str = "fraud_db.gold_customer_behavior_state"
     late_arrivals_table: str = "fraud_db.silver_late_arrivals"
-    customer_profile_path: str = "dbfs:/FileStore/customer_profile.csv"
-    output_path: str = "dbfs:/FileStore/rtcc_outputs"
+    customer_profile_path: str = "/Volumes/workspace/fraud_db/credit_fraud_data/customer_profile.csv"
+    output_path: str = "/Volumes/workspace/fraud_db/credit_fraud_data/outputs"
     watermark_minutes: int = 120
 
     @property

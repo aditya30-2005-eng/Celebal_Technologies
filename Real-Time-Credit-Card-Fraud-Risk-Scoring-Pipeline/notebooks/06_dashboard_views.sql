@@ -1,95 +1,274 @@
 USE fraud_db;
 
 CREATE OR REPLACE VIEW fraud_db.vw_total_transactions AS
-SELECT COUNT(*) AS total_transactions FROM fraud_db.silver_transactions;
+SELECT COUNT(*) AS total_transactions
+FROM fraud_db.silver_transactions;
+
 
 CREATE OR REPLACE VIEW fraud_db.vw_total_transaction_amount AS
-SELECT ROUND(SUM(amount), 2) AS total_transaction_amount FROM fraud_db.silver_transactions;
+SELECT ROUND(COALESCE(SUM(amount), 0), 2) AS total_transaction_amount
+FROM fraud_db.silver_transactions;
+
 
 CREATE OR REPLACE VIEW fraud_db.vw_fraud_transactions AS
-SELECT COUNT(*) AS fraud_transactions FROM fraud_db.gold_transaction_features WHERE fraud_prediction = TRUE;
+SELECT COUNT(*) AS fraud_transactions
+FROM fraud_db.gold_transaction_features
+WHERE fraud_prediction = TRUE;
+
 
 CREATE OR REPLACE VIEW fraud_db.vw_fraud_percentage AS
-SELECT ROUND(100.0 * SUM(CASE WHEN fraud_prediction THEN 1 ELSE 0 END) / COUNT(*), 2) AS fraud_percentage
+SELECT
+    ROUND(
+        100.0 *
+        SUM(CASE WHEN fraud_prediction = TRUE THEN 1 ELSE 0 END)
+        / NULLIF(COUNT(*), 0),
+        2
+    ) AS fraud_percentage
 FROM fraud_db.gold_transaction_features;
 
+
 CREATE OR REPLACE VIEW fraud_db.vw_fraud_amount AS
-SELECT ROUND(SUM(amount), 2) AS fraud_amount
-FROM fraud_db.gold_transaction_features WHERE fraud_prediction = TRUE;
+SELECT ROUND(COALESCE(SUM(amount), 0), 2) AS fraud_amount
+FROM fraud_db.gold_transaction_features
+WHERE fraud_prediction = TRUE;
+
 
 CREATE OR REPLACE VIEW fraud_db.vw_high_risk_transactions AS
 SELECT COUNT(*) AS high_risk_transactions
-FROM fraud_db.gold_high_risk_transactions WHERE risk_level = 'HIGH';
+FROM fraud_db.gold_transaction_features
+WHERE risk_level = 'HIGH';
+
 
 CREATE OR REPLACE VIEW fraud_db.vw_medium_risk_transactions AS
 SELECT COUNT(*) AS medium_risk_transactions
-FROM fraud_db.gold_high_risk_transactions WHERE risk_level = 'MEDIUM';
+FROM fraud_db.gold_transaction_features
+WHERE risk_level = 'MEDIUM';
+
 
 CREATE OR REPLACE VIEW fraud_db.vw_low_risk_transactions AS
 SELECT COUNT(*) AS low_risk_transactions
-FROM fraud_db.gold_high_risk_transactions WHERE risk_level = 'LOW';
+FROM fraud_db.gold_transaction_features
+WHERE risk_level = 'LOW';
+
 
 CREATE OR REPLACE VIEW fraud_db.vw_risk_score_distribution AS
-SELECT risk_level, COUNT(*) AS total_transactions
-FROM fraud_db.gold_high_risk_transactions
+SELECT
+    risk_level,
+    COUNT(*) AS total_transactions
+FROM fraud_db.gold_transaction_features
 GROUP BY risk_level
-ORDER BY risk_level;
+ORDER BY
+    CASE
+        WHEN risk_level = 'HIGH' THEN 1
+        WHEN risk_level = 'MEDIUM' THEN 2
+        WHEN risk_level = 'LOW' THEN 3
+        ELSE 4
+    END;
+
 
 CREATE OR REPLACE VIEW fraud_db.vw_fraud_trend_over_time AS
-SELECT CAST(transaction_timestamp AS DATE) AS transaction_day,
-       COUNT(*) AS fraud_transactions,
-       ROUND(AVG(risk_score), 2) AS avg_risk_score
+SELECT
+    CAST(transaction_timestamp AS DATE) AS transaction_day,
+    COUNT(*) AS fraud_transactions,
+    ROUND(AVG(risk_score), 2) AS avg_risk_score
 FROM fraud_db.gold_transaction_features
 WHERE fraud_prediction = TRUE
 GROUP BY CAST(transaction_timestamp AS DATE)
 ORDER BY transaction_day;
 
+
 CREATE OR REPLACE VIEW fraud_db.vw_top_risky_merchants AS
-SELECT merchant AS merchant_name,
-       COUNT(*) AS suspicious_count,
-       ROUND(AVG(risk_score), 2) AS avg_risk_score
+SELECT
+    merchant AS merchant_name,
+    COUNT(*) AS suspicious_count,
+    ROUND(AVG(risk_score), 2) AS avg_risk_score
 FROM fraud_db.gold_transaction_features
 WHERE fraud_prediction = TRUE
 GROUP BY merchant
 ORDER BY suspicious_count DESC, avg_risk_score DESC;
 
+
 CREATE OR REPLACE VIEW fraud_db.vw_top_risky_locations AS
-SELECT location,
-       COUNT(*) AS suspicious_count,
-       ROUND(AVG(risk_score), 2) AS avg_risk_score
+SELECT
+    location,
+    COUNT(*) AS suspicious_count,
+    ROUND(AVG(risk_score), 2) AS avg_risk_score
 FROM fraud_db.gold_transaction_features
 WHERE fraud_prediction = TRUE
 GROUP BY location
 ORDER BY suspicious_count DESC, avg_risk_score DESC;
 
+
 CREATE OR REPLACE VIEW fraud_db.vw_high_risk_transaction_detail AS
-SELECT transaction_id,
-       transaction_timestamp,
-       customer_id,
-       card_id,
-       amount,
-       merchant AS merchant_id,
-       merchant_category,
-       location,
-       risk_score,
-       risk_level,
-       fraud_prediction
+SELECT
+    transaction_id,
+    transaction_timestamp,
+    customer_id,
+    card_id,
+    amount,
+    merchant AS merchant_id,
+    merchant_category,
+    location,
+    risk_score,
+    risk_level,
+    fraud_prediction
 FROM fraud_db.gold_high_risk_transactions
 ORDER BY risk_score DESC;
 
+
 CREATE OR REPLACE VIEW fraud_db.vw_fraud_by_transaction_type AS
-SELECT merchant_category AS transaction_type,
-       COUNT(*) AS fraud_transactions,
-       ROUND(AVG(risk_score), 2) AS avg_risk_score
+SELECT
+    merchant_category AS transaction_type,
+    COUNT(*) AS fraud_transactions,
+    ROUND(AVG(risk_score), 2) AS avg_risk_score
 FROM fraud_db.gold_transaction_features
 WHERE fraud_prediction = TRUE
 GROUP BY merchant_category
 ORDER BY fraud_transactions DESC;
 
+
 CREATE OR REPLACE VIEW fraud_db.vw_fraud_by_hour AS
-SELECT transaction_hour AS hour_of_day,
-       COUNT(*) AS fraud_transactions
+SELECT
+    transaction_hour AS hour_of_day,
+    COUNT(*) AS fraud_transactions
 FROM fraud_db.gold_transaction_features
 WHERE fraud_prediction = TRUE
 GROUP BY transaction_hour
+ORDER BY hour_of_day;USE fraud_db;
+
+CREATE OR REPLACE VIEW fraud_db.vw_total_transactions AS
+SELECT COUNT(*) AS total_transactions
+FROM fraud_db.silver_transactions;
+
+
+CREATE OR REPLACE VIEW fraud_db.vw_total_transaction_amount AS
+SELECT ROUND(COALESCE(SUM(amount), 0), 2) AS total_transaction_amount
+FROM fraud_db.silver_transactions;
+
+
+CREATE OR REPLACE VIEW fraud_db.vw_fraud_transactions AS
+SELECT COUNT(*) AS fraud_transactions
+FROM fraud_db.gold_transaction_features
+WHERE fraud_prediction = TRUE;
+
+
+CREATE OR REPLACE VIEW fraud_db.vw_fraud_percentage AS
+SELECT
+    ROUND(
+        100.0 *
+        SUM(CASE WHEN fraud_prediction = TRUE THEN 1 ELSE 0 END)
+        / NULLIF(COUNT(*), 0),
+        2
+    ) AS fraud_percentage
+FROM fraud_db.gold_transaction_features;
+
+
+CREATE OR REPLACE VIEW fraud_db.vw_fraud_amount AS
+SELECT
+    ROUND(COALESCE(SUM(amount), 0), 2) AS fraud_amount
+FROM fraud_db.gold_transaction_features
+WHERE fraud_prediction = TRUE;
+
+
+CREATE OR REPLACE VIEW fraud_db.vw_high_risk_transactions AS
+SELECT COUNT(*) AS high_risk_transactions
+FROM fraud_db.gold_transaction_features
+WHERE risk_level = 'HIGH';
+
+
+CREATE OR REPLACE VIEW fraud_db.vw_medium_risk_transactions AS
+SELECT COUNT(*) AS medium_risk_transactions
+FROM fraud_db.gold_transaction_features
+WHERE risk_level = 'MEDIUM';
+
+
+CREATE OR REPLACE VIEW fraud_db.vw_low_risk_transactions AS
+SELECT COUNT(*) AS low_risk_transactions
+FROM fraud_db.gold_transaction_features
+WHERE risk_level = 'LOW';
+
+
+CREATE OR REPLACE VIEW fraud_db.vw_risk_score_distribution AS
+SELECT
+    risk_level,
+    COUNT(*) AS total_transactions
+FROM fraud_db.gold_transaction_features
+GROUP BY risk_level
+ORDER BY
+    CASE
+        WHEN risk_level = 'HIGH' THEN 1
+        WHEN risk_level = 'MEDIUM' THEN 2
+        WHEN risk_level = 'LOW' THEN 3
+        ELSE 4
+    END;
+
+
+CREATE OR REPLACE VIEW fraud_db.vw_fraud_trend_over_time AS
+SELECT
+    CAST(transaction_timestamp AS DATE) AS transaction_day,
+    COUNT(*) AS fraud_transactions,
+    ROUND(AVG(risk_score), 2) AS avg_risk_score
+FROM fraud_db.gold_transaction_features
+WHERE fraud_prediction = TRUE
+GROUP BY CAST(transaction_timestamp AS DATE)
+ORDER BY transaction_day;
+
+
+CREATE OR REPLACE VIEW fraud_db.vw_top_risky_merchants AS
+SELECT
+    merchant AS merchant_name,
+    COUNT(*) AS suspicious_count,
+    ROUND(AVG(risk_score), 2) AS avg_risk_score
+FROM fraud_db.gold_transaction_features
+WHERE fraud_prediction = TRUE
+GROUP BY merchant
+ORDER BY suspicious_count DESC, avg_risk_score DESC;
+
+
+CREATE OR REPLACE VIEW fraud_db.vw_top_risky_locations AS
+SELECT
+    location,
+    COUNT(*) AS suspicious_count,
+    ROUND(AVG(risk_score), 2) AS avg_risk_score
+FROM fraud_db.gold_transaction_features
+WHERE fraud_prediction = TRUE
+GROUP BY location
+ORDER BY suspicious_count DESC, avg_risk_score DESC;
+
+
+CREATE OR REPLACE VIEW fraud_db.vw_high_risk_transaction_detail AS
+SELECT
+    transaction_id,
+    transaction_timestamp,
+    customer_id,
+    card_id,
+    amount,
+    merchant AS merchant_id,
+    merchant_category,
+    location,
+    risk_score,
+    risk_level,
+    fraud_prediction
+FROM fraud_db.gold_high_risk_transactions
+ORDER BY risk_score DESC;
+
+
+CREATE OR REPLACE VIEW fraud_db.vw_fraud_by_transaction_type AS
+SELECT
+    merchant_category AS transaction_type,
+    COUNT(*) AS fraud_transactions,
+    ROUND(AVG(risk_score), 2) AS avg_risk_score
+FROM fraud_db.gold_transaction_features
+WHERE fraud_prediction = TRUE
+GROUP BY merchant_category
+ORDER BY fraud_transactions DESC;
+
+
+CREATE OR REPLACE VIEW fraud_db.vw_fraud_by_hour AS
+SELECT
+    HOUR(transaction_timestamp) AS hour_of_day,
+    COUNT(*) AS fraud_transactions
+FROM fraud_db.gold_transaction_features
+WHERE fraud_prediction = TRUE
+GROUP BY HOUR(transaction_timestamp)
 ORDER BY hour_of_day;

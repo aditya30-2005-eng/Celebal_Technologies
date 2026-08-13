@@ -2,81 +2,182 @@ from __future__ import annotations
 
 from delta.tables import DeltaTable
 from pyspark.sql import functions as F
+from pyspark.sql.types import (
+    DoubleType,
+    StringType,
+    StructField,
+    StructType,
+)
 
-from src.config import DEFAULT_CONFIG
+INPUT_TABLE = "fraud_db.bronze_transactions"
+LATE_TABLE = "fraud_db.silver_late_arrivals"
 
-if "dbutils" in globals():
-    try:
-        dbutils.widgets.remove("late_checkpoint")
-    except Exception:
-        pass
-    dbutils.widgets.text("late_checkpoint", DEFAULT_CONFIG.late_checkpoint, "Late-arrivals checkpoint")
-    late_checkpoint = dbutils.widgets.get("late_checkpoint")
-else:
-    late_checkpoint = DEFAULT_CONFIG.late_checkpoint
+LATE_CHECKPOINT = "/Volumes/workspace/fraud_db/credit_fraud_data/checkpoints/late"
 
-late_table = "fraud_db.silver_late_arrivals"
+WATERMARK_MINUTES = 120
 
 
 def table_exists(full_table_name: str) -> bool:
-    db, tbl = full_table_name.split(".", 1) if "." in full_table_name else (spark.catalog.currentCatalog(), full_table_name)
-    return any(t.name == tbl and t.database == db for t in spark.catalog.listTables(db))
+    parts = full_table_name.split(".")
 
+    if len(parts) == 2:
+        database, table = parts
+    else:
+        database = spark.catalog.currentDatabase()
+        table = full_table_name
 
-watermarked_stream = (
-    spark.readStream.table("fraud_db.bronze_transactions")
-    .withColumn("transaction_timestamp", F.to_timestamp(F.col("transaction_time"), "yyyy-MM-dd HH:mm:ss"))
-    .withWatermark("transaction_timestamp", "2 hours")
-)
-
-
-def route_late(micro_batch_df, batch_id):
-    if micro_batch_df.rdd.isEmpty():
-        return
-
-    late_df = (
-        micro_batch_df
-        .withColumn("transaction_timestamp", F.to_timestamp(F.col("transaction_time"), "yyyy-MM-dd HH:mm:ss"))
-        .filter(F.expr("transaction_timestamp < current_timestamp() - INTERVAL 2 HOURS"))
+    return any(
+        t.name == table
+        for t in spark.catalog.listTables(database)
     )
 
-    if late_df.rdd.isEmpty():
-        return
 
-    late_df = (
-        late_df
-        .withColumn("ingest_timestamp", F.current_timestamp())
-        .withColumn("reason", F.lit("beyond_watermark_2_hours"))
-        .select(
-            "transaction_id",
-            "customer_id",
-            "card_id",
-            "transaction_timestamp",
-            "amount",
-            "merchant",
-            "merchant_category",
-            "location",
-            "ingest_timestamp",
-            "source_file",
-            "reason",
+spark.sql("CREATE DATABASE IF NOT EXISTS fraud_db")
+
+
+late_schema = StructType([
+    StructField("transaction_id", StringType(), True),
+    StructField("customer_id", StringType(), True),
+    StructField("card_id", StringType(), True),
+    StructField("transaction_timestamp", StringType(), True),
+    StructField("amount", DoubleType(), True),
+    StructField("merchant", StringType(), True),
+    StructField("merchant_category", StringType(), True),
+    StructField("location", StringType(), True),
+    StructField("ingest_timestamp", StringType(), True),
+    StructField("source_file", StringType(), True),
+    StructField("reason", StringType(), True),
+])
+
+
+if not table_exists(LATE_TABLE):
+    (
+        spark.createDataFrame([], late_schema)
+        .write
+        .format("delta")
+        .saveAsTable(LATE_TABLE)
+    )
+
+
+bronze_df = (
+    spark.read
+    .table(INPUT_TABLE)
+    .withColumn(
+        "transaction_timestamp",
+        F.to_timestamp(
+            F.col("transaction_time"),
+            "yyyy-MM-dd HH:mm:ss"
         )
     )
-
-    if not table_exists(late_table):
-        late_df.limit(0).write.format("delta").saveAsTable(late_table)
-
-    delta_table = DeltaTable.forName(spark, late_table)
-    delta_table.alias("t").merge(
-        late_df.alias("s"),
-        "t.transaction_id = s.transaction_id"
-    ).whenMatchedUpdateAll().whenNotMatchedInsertAll().execute()
-
-
-query = (
-    watermarked_stream.writeStream
-    .foreachBatch(route_late)
-    .option("checkpointLocation", late_checkpoint)
-    .trigger(availableNow=True)
-    .start()
 )
-query.awaitTermination()
+
+
+if bronze_df.limit(1).count() == 0:
+    print("No bronze records found.")
+else:
+
+    stats = (
+        bronze_df
+        .select(
+            F.min("transaction_timestamp").alias("min_event_time"),
+            F.max("transaction_timestamp").alias("max_event_time")
+        )
+        .collect()[0]
+    )
+
+    min_event_time = stats["min_event_time"]
+    max_event_time = stats["max_event_time"]
+
+    print("========================================")
+    print("LATE ARRIVING DATA PIPELINE")
+    print("========================================")
+    print(f"Minimum event time : {min_event_time}")
+    print(f"Maximum event time : {max_event_time}")
+    print(f"Watermark          : {WATERMARK_MINUTES} minutes")
+
+    if max_event_time is None:
+
+        print("No valid transaction timestamps found.")
+
+    else:
+
+        watermark_time = (
+            max_event_time
+            - __import__("datetime").timedelta(
+                minutes=WATERMARK_MINUTES
+            )
+        )
+
+        print(f"Late threshold     : {watermark_time}")
+
+        late_df = (
+            bronze_df
+            .filter(
+                F.col("transaction_timestamp") < F.lit(watermark_time)
+            )
+            .withColumn(
+                "ingest_timestamp",
+                F.current_timestamp()
+            )
+            .withColumn(
+                "reason",
+                F.lit("beyond_watermark_120_minutes")
+            )
+            .select(
+                "transaction_id",
+                "customer_id",
+                "card_id",
+                "transaction_timestamp",
+                "amount",
+                "merchant",
+                "merchant_category",
+                "location",
+                "ingest_timestamp",
+                "source_file",
+                "reason",
+            )
+        )
+
+        late_count = late_df.count()
+
+        print(f"Late records       : {late_count}")
+
+        if late_count > 0:
+
+            delta_table = DeltaTable.forName(
+                spark,
+                LATE_TABLE
+            )
+
+            (
+                delta_table
+                .alias("t")
+                .merge(
+                    late_df.alias("s"),
+                    "t.transaction_id = s.transaction_id"
+                )
+                .whenMatchedUpdateAll()
+                .whenNotMatchedInsertAll()
+                .execute()
+            )
+
+            print("Late records successfully written.")
+
+        else:
+
+            print("No late-arriving records found.")
+
+        print("========================================")
+        print("LATE ARRIVING DATA PIPELINE COMPLETED")
+        print("========================================")
+
+
+display(
+    spark.sql(
+        f"""
+        SELECT
+            COUNT(*) AS late_records
+        FROM {LATE_TABLE}
+        """
+    )
+)
